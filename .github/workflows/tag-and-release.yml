@@ -1,0 +1,36 @@
+name: Tag and release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: recursive
+        token: ${{ secrets.CHECKOUT_TOKEN }}
+        fetch-depth: 100
+    - uses: paulhatch/semantic-version@v5.0.2
+      id: get-next-semantic-version
+      with:
+        tag_prefix: "v"
+    - name: Create tag
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.git.createRef({
+            owner: github.repository_owner,
+            repo: github.repository,
+            ref: "refs/tags/${{ steps.get-next-semantic-version.version }}",
+            sha: github.sha
+          })
+    - name: Create VERSION
+      run: echo ${{ steps.get-next-semantic-version.version }} > VERSION
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/v')
+      with:
+        files: VERSION
