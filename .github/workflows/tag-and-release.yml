@@ -20,7 +20,8 @@ jobs:
         id: get-next-semantic-version
         with:
           tag_prefix: "v"
-          version_format: "v${major}.${minor}.${patch}+${increment}"
+          version_format: "v${major}.${minor}.${patch}"
+          bump_each_commit: true
       - name: Create tag
         uses: actions/github-script@v6
         with:
