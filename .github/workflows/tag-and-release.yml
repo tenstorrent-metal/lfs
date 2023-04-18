@@ -25,7 +25,7 @@ jobs:
             github.rest.git.createRef({
               owner: "${{ github.repository_owner }}",
               repo: "${{ github.repository }}",
-              ref: "refs/tags/${{ steps.get-next-semantic-version.version }}",
+              ref: "refs/tags/${{ steps.get-next-semantic-version.outputs.version }}",
               sha: "${{ github.sha }}",
             })
       - name: Create VERSION
