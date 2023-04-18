@@ -9,8 +9,6 @@ permissions:
   contents: write
   packages: write
 
-
-
 jobs:
   tag-and-release-lfs:
     runs-on: ubuntu-latest
