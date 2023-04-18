@@ -32,7 +32,7 @@ jobs:
             const version = "${{ steps.get-next-semantic-version.outputs.version }}";
             const sha = "${{ github.sha }}";
 
-            await github.rest.git.createTag({
+            const tag = await github.rest.git.createTag({
               owner: owner,
               repo: repo,
               tag: version,
@@ -43,6 +43,12 @@ jobs:
                 name: "Jasmina Vasiljevic",
                 email: "jvasiljevic@tenstorrent.com",
               }
+            });
+            github.rest.git.createRef({
+              owner: owner,
+              repo: repo,
+              ref: `refs/tags/${version}`,
+              sha: tag.sha,
             });
       - name: Create VERSION
         run: echo ${{ steps.get-next-semantic-version.version }} > VERSION
