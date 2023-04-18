@@ -31,8 +31,8 @@ jobs:
               repo: "${{ github.repository }}".split('/')[1],
               ref: "refs/tags/${{ steps.get-next-semantic-version.outputs.version }}",
               sha: "${{ github.sha }}",
-            });
-            echo "PASSED" >> $GITHUB_OUTPUT;
+            })
+            echo "PASSED" >> $GITHUB_OUTPUT
       - name: Create VERSION
         run: echo ${{ steps.get-next-semantic-version.version }} > VERSION
       - name: Release
