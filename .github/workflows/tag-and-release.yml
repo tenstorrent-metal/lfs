@@ -44,12 +44,11 @@ jobs:
                 email: "jvasiljevic@tenstorrent.com",
               }
             });
-            console.log(JSON.stringify(tag));
             github.rest.git.createRef({
               owner: owner,
               repo: repo,
               ref: `refs/tags/${version}`,
-              sha: tag.sha,
+              sha: tag.data.sha,
             });
       - name: Create VERSION
         run: echo ${{ steps.get-next-semantic-version.version }} > VERSION
