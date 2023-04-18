@@ -15,8 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: recursive
-          token: ${{ secrets.CHECKOUT_TOKEN }}
           fetch-depth: 0
       - uses: paulhatch/semantic-version@v5.0.2
         id: get-next-semantic-version
