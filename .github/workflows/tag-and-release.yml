@@ -26,7 +26,7 @@ jobs:
               owner: "${{ github.repository_owner }}",
               repo: "${{ github.repository }}",
               ref: "refs/tags/${{ steps.get-next-semantic-version.version }}",
-              sha: "${ github.sha }}",
+              sha: "${{ github.sha }}",
             })
       - name: Create VERSION
         run: echo ${{ steps.get-next-semantic-version.version }} > VERSION
