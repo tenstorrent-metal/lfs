@@ -9,13 +9,15 @@ permissions:
   contents: write
   packages: write
 
+
+
 jobs:
   tag-and-release-lfs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 100
       - uses: paulhatch/semantic-version@v5.0.2
         id: get-next-semantic-version
         with:
@@ -31,7 +33,7 @@ jobs:
               const version = "${{ steps.get-next-semantic-version.outputs.version }}";
               const sha = "${{ github.sha }}";
 
-              github.rest.git.createTag({
+              await github.rest.git.createTag({
                 owner: owner,
                 repo: repo,
                 tag: version,
