@@ -44,6 +44,7 @@ jobs:
                 email: "jvasiljevic@tenstorrent.com",
               }
             });
+            console.log(JSON.stringify(tag));
             github.rest.git.createRef({
               owner: owner,
               repo: repo,
