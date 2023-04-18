@@ -44,12 +44,6 @@ jobs:
                 email: "jvasiljevic@tenstorrent.com",
               }
             });
-            github.rest.git.createRef({
-              owner: owner,
-              repo: repo,
-              ref: `refs/tags/${version}`,
-              sha: sha,
-            });
       - name: Create VERSION
         run: echo ${{ steps.get-next-semantic-version.version }} > VERSION
       - name: Release
