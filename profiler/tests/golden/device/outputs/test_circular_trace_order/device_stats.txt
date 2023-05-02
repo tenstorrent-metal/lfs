@@ -1,0 +1,50 @@
+
+=================== NCRISC kernel start -> NCRISC kernel end ===================
+    Duration  =         30
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---               30                X                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== Core start -> Core end ===================
+       Count  =          2
+     Average  =        538
+         Max  =      1,105
+      Median  =        538
+         Min  =        -30
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---            1,105                X                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC              -30                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== Device start -> Device end ===================
+    Duration  =      1,105
+

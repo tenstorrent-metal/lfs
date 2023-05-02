@@ -1,0 +1,154 @@
+
+=================== FW start ===================
+       Count  =          2
+     Average  =          5
+         Max  =         10
+      Median  =          5
+         Min  =          0
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---                0               10                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== BRISC kernel start -> BRISC kernel end ===================
+       Count  =          4
+     Average  =         77
+         Max  =         85
+      Median  =         77
+         Min  =         74
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---             75±0             80±5                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== NCRISC kernel start -> NCRISC kernel end ===================
+       Count  =          4
+     Average  =         37
+         Max  =         42
+      Median  =         37
+         Min  =         32
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---             42±0             32±0                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== Launch delta ===================
+       Count  =          2
+     Average  =    550,190
+         Max  =    550,195
+      Median  =    550,190
+         Min  =    550,185
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---          550,195          550,185                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== Core end ===================
+       Count  =          2
+     Average  =    558,032
+         Max  =    558,037
+      Median  =    558,032
+         Min  =    558,027
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---          558,037          558,027                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== Core start -> Core end ===================
+       Count  =          2
+     Average  =    558,027
+         Max  =    558,037
+      Median  =    558,027
+         Min  =    558,017
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---          558,037          558,017                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== Device start -> Device end ===================
+    Duration  =    558,037
+
