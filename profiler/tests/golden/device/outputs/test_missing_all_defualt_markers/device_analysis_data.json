@@ -1,0 +1,278 @@
+{
+  "data": {
+    "devices": {
+      "0": {
+        "cores": {
+          "(0, 0)": {
+            "riscs": {
+              "BRISC": {
+                "timeseries": [
+                  "(0, 620014949326646)",
+                  "(5, 620014949329412)",
+                  "(9, 620014949329763)",
+                  "(11, 620014949329827)",
+                  "(345, 620014949329911)",
+                  "(51, 620014949786086)",
+                  "(62, 620014949789203)",
+                  "(73, 620014949789267)",
+                  "(84, 620014949789351)"
+                ]
+              },
+              "NCRISC": {
+                "timeseries": [
+                  "(0, 620014949326646)",
+                  "(8, 620014949326646)",
+                  "(6, 620014949330453)",
+                  "(6, 620014949330483)",
+                  "(7, 620014949330517)",
+                  "(23, 620014949788852)",
+                  "(27, 620014949789893)",
+                  "(30, 620014949789923)",
+                  "(45, 620014949789957)"
+                ]
+              },
+              "TENSIX": {
+                "timeseries": [
+                  "(0, 620014949326646, 'BRISC')",
+                  "(0, 620014949326646, 'NCRISC')",
+                  "(8, 620014949326646, 'NCRISC')",
+                  "(5, 620014949329412, 'BRISC')",
+                  "(9, 620014949329763, 'BRISC')",
+                  "(11, 620014949329827, 'BRISC')",
+                  "(345, 620014949329911, 'BRISC')",
+                  "(6, 620014949330453, 'NCRISC')",
+                  "(6, 620014949330483, 'NCRISC')",
+                  "(7, 620014949330517, 'NCRISC')",
+                  "(51, 620014949786086, 'BRISC')",
+                  "(23, 620014949788852, 'NCRISC')",
+                  "(62, 620014949789203, 'BRISC')",
+                  "(73, 620014949789267, 'BRISC')",
+                  "(84, 620014949789351, 'BRISC')",
+                  "(27, 620014949789893, 'NCRISC')",
+                  "(30, 620014949789923, 'NCRISC')",
+                  "(45, 620014949789957, 'NCRISC')"
+                ]
+              }
+            }
+          },
+          "DEVICE": {
+            "riscs": {
+              "BRISC": {
+                "timeseries": [
+                  "(0, 620014949326646, (0, 0))",
+                  "(5, 620014949329412, (0, 0))",
+                  "(9, 620014949329763, (0, 0))",
+                  "(11, 620014949329827, (0, 0))",
+                  "(345, 620014949329911, (0, 0))",
+                  "(51, 620014949786086, (0, 0))",
+                  "(62, 620014949789203, (0, 0))",
+                  "(73, 620014949789267, (0, 0))",
+                  "(84, 620014949789351, (0, 0))"
+                ]
+              },
+              "NCRISC": {
+                "timeseries": [
+                  "(0, 620014949326646, (0, 0))",
+                  "(8, 620014949326646, (0, 0))",
+                  "(6, 620014949330453, (0, 0))",
+                  "(6, 620014949330483, (0, 0))",
+                  "(7, 620014949330517, (0, 0))",
+                  "(23, 620014949788852, (0, 0))",
+                  "(27, 620014949789893, (0, 0))",
+                  "(30, 620014949789923, (0, 0))",
+                  "(45, 620014949789957, (0, 0))"
+                ]
+              },
+              "TENSIX": {
+                "timeseries": [
+                  "(0, 620014949326646, 'BRISC', (0, 0))",
+                  "(0, 620014949326646, 'NCRISC', (0, 0))",
+                  "(8, 620014949326646, 'NCRISC', (0, 0))",
+                  "(5, 620014949329412, 'BRISC', (0, 0))",
+                  "(9, 620014949329763, 'BRISC', (0, 0))",
+                  "(11, 620014949329827, 'BRISC', (0, 0))",
+                  "(345, 620014949329911, 'BRISC', (0, 0))",
+                  "(6, 620014949330453, 'NCRISC', (0, 0))",
+                  "(6, 620014949330483, 'NCRISC', (0, 0))",
+                  "(7, 620014949330517, 'NCRISC', (0, 0))",
+                  "(51, 620014949786086, 'BRISC', (0, 0))",
+                  "(23, 620014949788852, 'NCRISC', (0, 0))",
+                  "(62, 620014949789203, 'BRISC', (0, 0))",
+                  "(73, 620014949789267, 'BRISC', (0, 0))",
+                  "(84, 620014949789351, 'BRISC', (0, 0))",
+                  "(27, 620014949789893, 'NCRISC', (0, 0))",
+                  "(30, 620014949789923, 'NCRISC', (0, 0))",
+                  "(45, 620014949789957, 'NCRISC', (0, 0))"
+                ]
+              }
+            }
+          }
+        },
+        "metadata": {
+          "global_min": {
+            "ts": 620014949326646,
+            "risc": "NCRISC",
+            "core": "(0, 0)"
+          }
+        }
+      }
+    }
+  },
+  "setup": {
+    "coreFreq": 1.2,
+    "deviceAnalysisData": "device_analysis_data.json",
+    "deviceInputLog": "/home/mmemarian/tt-metal/tt_metal/third_party/lfs/profiler/tests/golden/device/outputs/test_missing_all_defualt_markers/profile_log_device.csv",
+    "devicePerfHTML": "timeline.html",
+    "deviceRearranged": "device_rearranged_timestamps.csv",
+    "deviceStatsTXT": "device_stats.txt",
+    "deviceTarball": "device_perf_results.tgz",
+    "displayStats": [
+      "Count",
+      "Average",
+      "Max",
+      "Median",
+      "Min"
+    ],
+    "outputFolder": "output",
+    "plotBaseHeight": 200,
+    "plotPerCoreHeight": 120,
+    "riscs": [
+      "BRISC",
+      "NCRISC",
+      "TRISC_0",
+      "TRISC_1",
+      "TRISC_2"
+    ],
+    "riscsData": {
+      "BRISC": {
+        "color": "light:g"
+      },
+      "NCRISC": {
+        "color": "light:r"
+      },
+      "TRISC_0": {
+        "color": "light:gray"
+      },
+      "TRISC_1": {
+        "color": "light:gray"
+      },
+      "TRISC_2": {
+        "color": "light:gray"
+      },
+      "TENSIX": {
+        "color": "light:b"
+      }
+    },
+    "timerAnalysis": {
+      "FW start": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "BRISC",
+          "timerID": 0
+        },
+        "end": {
+          "risc": "BRISC",
+          "timerID": 1
+        }
+      },
+      "BRISC kernel start -> BRISC kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "BRISC",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "BRISC",
+          "timerID": 3
+        }
+      },
+      "NCRISC kernel start -> NCRISC kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "NCRISC",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "NCRISC",
+          "timerID": 3
+        }
+      },
+      "Launch delta": {
+        "across": "core",
+        "type": "adjacent",
+        "start": {
+          "risc": "ANY",
+          "timerID": 4
+        },
+        "end": {
+          "risc": "BRISC",
+          "timerID": 1
+        }
+      },
+      "Core end": {
+        "across": "core",
+        "type": "first_last",
+        "start": {
+          "risc": "BRISC",
+          "timerID": 0
+        },
+        "end": {
+          "risc": "ANY",
+          "timerID": 4
+        }
+      },
+      "Core start -> Core end": {
+        "across": "core",
+        "type": "first_last",
+        "start": {
+          "risc": "ANY",
+          "timerID": 1
+        },
+        "end": {
+          "risc": "ANY",
+          "timerID": 4
+        }
+      },
+      "Device start -> Device end": {
+        "across": "device",
+        "type": "first_last",
+        "start": {
+          "core": "ANY",
+          "risc": "ANY",
+          "timerID": 1
+        },
+        "end": {
+          "core": "ANY",
+          "risc": "ANY",
+          "timerID": 4
+        }
+      }
+    },
+    "timerIDLabels": [
+      [
+        0,
+        "Start"
+      ],
+      [
+        1,
+        "Firmware Start"
+      ],
+      [
+        2,
+        "Kernel start"
+      ],
+      [
+        3,
+        "Kernel End"
+      ],
+      [
+        4,
+        "Firmware End"
+      ]
+    ],
+    "webappPort": 8050
+  }
+}

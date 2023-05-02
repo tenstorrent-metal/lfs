@@ -1,0 +1,4 @@
+Clock Frequency [GHz],1.2
+PCIe slot,0
+core x,core y,BRISC Firmware Start,BRISC Kernel start,BRISC Kernel End,BRISC Firmware End,NCRISC Firmware Start,NCRISC Kernel start,NCRISC Kernel End,NCRISC Firmware End
+0,0,320219178244005,320219178247355,,320219186284016,320219178247411,320219178248751,,320219186122486
