@@ -36,6 +36,7 @@
                       "Average": 42.0,
                       "Max": 42,
                       "Min": 42,
+                      "Range": 0,
                       "Median": 42.0,
                       "Sum": 84,
                       "First": 42
@@ -74,6 +75,7 @@
                       "Average": 75.0,
                       "Max": 75,
                       "Min": 75,
+                      "Range": 0,
                       "Median": 75.0,
                       "Sum": 150,
                       "First": 75
@@ -97,6 +99,7 @@
                       "Average": 0.0,
                       "Max": 0,
                       "Min": 0,
+                      "Range": 0,
                       "Median": 0.0,
                       "Sum": 0,
                       "First": 0
@@ -144,6 +147,7 @@
                       "Average": 558037.0,
                       "Max": 558037,
                       "Min": 558037,
+                      "Range": 0,
                       "Median": 558037.0,
                       "Sum": 558037,
                       "First": 558037
@@ -167,6 +171,7 @@
                       "Average": 558037.0,
                       "Max": 558037,
                       "Min": 558037,
+                      "Range": 0,
                       "Median": 558037.0,
                       "Sum": 558037,
                       "First": 558037
@@ -190,6 +195,7 @@
                       "Average": 550195.0,
                       "Max": 550195,
                       "Min": 550195,
+                      "Range": 0,
                       "Median": 550195.0,
                       "Sum": 550195,
                       "First": 550195
@@ -232,6 +238,7 @@
                       "Average": 32.0,
                       "Max": 32,
                       "Min": 32,
+                      "Range": 0,
                       "Median": 32.0,
                       "Sum": 64,
                       "First": 32
@@ -270,6 +277,7 @@
                       "Average": 79.5,
                       "Max": 85,
                       "Min": 74,
+                      "Range": 11,
                       "Median": 79.5,
                       "Sum": 159,
                       "First": 85
@@ -293,6 +301,7 @@
                       "Average": 10.0,
                       "Max": 10,
                       "Min": 10,
+                      "Range": 0,
                       "Median": 10.0,
                       "Sum": 10,
                       "First": 10
@@ -340,6 +349,7 @@
                       "Average": 558027.0,
                       "Max": 558027,
                       "Min": 558027,
+                      "Range": 0,
                       "Median": 558027.0,
                       "Sum": 558027,
                       "First": 558027
@@ -363,6 +373,7 @@
                       "Average": 558017.0,
                       "Max": 558017,
                       "Min": 558017,
+                      "Range": 0,
                       "Median": 558017.0,
                       "Sum": 558017,
                       "First": 558017
@@ -386,6 +397,7 @@
                       "Average": 550185.0,
                       "Max": 550185,
                       "Min": 550185,
+                      "Range": 0,
                       "Median": 550185.0,
                       "Sum": 550185,
                       "First": 550185
@@ -501,6 +513,7 @@
                       "Average": 558037.0,
                       "Max": 558037,
                       "Min": 558037,
+                      "Range": 0,
                       "Median": 558037.0,
                       "Sum": 558037,
                       "First": 558037
@@ -528,6 +541,7 @@
                   "Average": 37.0,
                   "Max": 42,
                   "Min": 32,
+                  "Range": 10,
                   "Median": 37.0
                 }
               },
@@ -549,6 +563,7 @@
                   "Average": 77.25,
                   "Max": 85,
                   "Min": 74,
+                  "Range": 11,
                   "Median": 77.25
                 }
               },
@@ -570,6 +585,7 @@
                   "Average": 5.0,
                   "Max": 10,
                   "Min": 0,
+                  "Range": 10,
                   "Median": 5.0
                 }
               },
@@ -591,6 +607,7 @@
                   "Average": 558032.0,
                   "Max": 558037,
                   "Min": 558027,
+                  "Range": 10,
                   "Median": 558032.0
                 }
               },
@@ -612,6 +629,7 @@
                   "Average": 558027.0,
                   "Max": 558037,
                   "Min": 558017,
+                  "Range": 20,
                   "Median": 558027.0
                 }
               },
@@ -633,6 +651,7 @@
                   "Average": 550190.0,
                   "Max": 550195,
                   "Min": 550185,
+                  "Range": 10,
                   "Median": 550190.0
                 }
               },
@@ -656,6 +675,7 @@
                   "Average": 558037.0,
                   "Max": 558037,
                   "Min": 558037,
+                  "Range": 0,
                   "Median": 558037.0
                 }
               }
@@ -728,6 +748,42 @@
         "end": {
           "risc": "BRISC",
           "timerID": 1
+        }
+      },
+      "TRISC0 kernel start -> TRISC0 kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "TRISC_0",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "TRISC_0",
+          "timerID": 3
+        }
+      },
+      "TRISC1 kernel start -> TRISC1 kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "TRISC_1",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "TRISC_1",
+          "timerID": 3
+        }
+      },
+      "TRISC2 kernel start -> TRISC2 kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "TRISC_2",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "TRISC_2",
+          "timerID": 3
         }
       },
       "BRISC kernel start -> BRISC kernel end": {

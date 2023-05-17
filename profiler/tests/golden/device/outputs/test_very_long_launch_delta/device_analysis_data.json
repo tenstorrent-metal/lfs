@@ -36,6 +36,7 @@
                       "Average": 80629.0,
                       "Max": 102409,
                       "Min": 58849,
+                      "Range": 43560,
                       "Median": 80629.0,
                       "Sum": 161258,
                       "First": 102409
@@ -74,6 +75,7 @@
                       "Average": 101208.0,
                       "Max": 113987,
                       "Min": 88429,
+                      "Range": 25558,
                       "Median": 101208.0,
                       "Sum": 202416,
                       "First": 113987
@@ -97,6 +99,7 @@
                       "Average": 0.0,
                       "Max": 0,
                       "Min": 0,
+                      "Range": 0,
                       "Median": 0.0,
                       "Sum": 0,
                       "First": 0
@@ -144,6 +147,7 @@
                       "Average": 1038132883.0,
                       "Max": 1038132883,
                       "Min": 1038132883,
+                      "Range": 0,
                       "Median": 1038132883.0,
                       "Sum": 1038132883,
                       "First": 1038132883
@@ -167,6 +171,7 @@
                       "Average": 1038132883.0,
                       "Max": 1038132883,
                       "Min": 1038132883,
+                      "Range": 0,
                       "Median": 1038132883.0,
                       "Sum": 1038132883,
                       "First": 1038132883
@@ -190,6 +195,7 @@
                       "Average": 1037923447.0,
                       "Max": 1037923447,
                       "Min": 1037923447,
+                      "Range": 0,
                       "Median": 1037923447.0,
                       "Sum": 1037923447,
                       "First": 1037923447
@@ -228,6 +234,7 @@
                       "Average": 58849.0,
                       "Max": 58849,
                       "Min": 58849,
+                      "Range": 0,
                       "Median": 58849.0,
                       "Sum": 58849,
                       "First": 58849
@@ -262,6 +269,7 @@
                       "Average": 88429.0,
                       "Max": 88429,
                       "Min": 88429,
+                      "Range": 0,
                       "Median": 88429.0,
                       "Sum": 88429,
                       "First": 88429
@@ -285,6 +293,7 @@
                       "Average": 1038040942.0,
                       "Max": 1038040942,
                       "Min": 1038040942,
+                      "Range": 0,
                       "Median": 1038040942.0,
                       "Sum": 1038040942,
                       "First": 1038040942
@@ -324,6 +333,7 @@
                       "Average": 1038132883.0,
                       "Max": 1038132883,
                       "Min": 1038132883,
+                      "Range": 0,
                       "Median": 1038132883.0,
                       "Sum": 1038132883,
                       "First": 1038132883
@@ -347,6 +357,7 @@
                       "Average": 91941.0,
                       "Max": 91941,
                       "Min": 91941,
+                      "Range": 0,
                       "Median": 91941.0,
                       "Sum": 91941,
                       "First": 91941
@@ -446,6 +457,7 @@
                       "Average": 1038132883.0,
                       "Max": 1038132883,
                       "Min": 1038132883,
+                      "Range": 0,
                       "Median": 1038132883.0,
                       "Sum": 1038132883,
                       "First": 1038132883
@@ -473,6 +485,7 @@
                   "Average": 73369.0,
                   "Max": 102409,
                   "Min": 58849,
+                  "Range": 43560,
                   "Median": 69739.0
                 }
               },
@@ -494,6 +507,7 @@
                   "Average": 96948.33333333333,
                   "Max": 113987,
                   "Min": 88429,
+                  "Range": 25558,
                   "Median": 94818.5
                 }
               },
@@ -515,6 +529,7 @@
                   "Average": 519020471.0,
                   "Max": 1038040942,
                   "Min": 0,
+                  "Range": 1038040942,
                   "Median": 519020471.0
                 }
               },
@@ -536,6 +551,7 @@
                   "Average": 1038132883.0,
                   "Max": 1038132883,
                   "Min": 1038132883,
+                  "Range": 0,
                   "Median": 1038132883.0
                 }
               },
@@ -557,6 +573,7 @@
                   "Average": 519112412.0,
                   "Max": 1038132883,
                   "Min": 91941,
+                  "Range": 1038040942,
                   "Median": 519112412.0
                 }
               },
@@ -578,6 +595,7 @@
                   "Average": 1037923447.0,
                   "Max": 1037923447,
                   "Min": 1037923447,
+                  "Range": 0,
                   "Median": 1037923447.0
                 }
               },
@@ -601,6 +619,7 @@
                   "Average": 1038132883.0,
                   "Max": 1038132883,
                   "Min": 1038132883,
+                  "Range": 0,
                   "Median": 1038132883.0
                 }
               }
@@ -673,6 +692,42 @@
         "end": {
           "risc": "BRISC",
           "timerID": 1
+        }
+      },
+      "TRISC0 kernel start -> TRISC0 kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "TRISC_0",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "TRISC_0",
+          "timerID": 3
+        }
+      },
+      "TRISC1 kernel start -> TRISC1 kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "TRISC_1",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "TRISC_1",
+          "timerID": 3
+        }
+      },
+      "TRISC2 kernel start -> TRISC2 kernel end": {
+        "across": "risc",
+        "type": "adjacent",
+        "start": {
+          "risc": "TRISC_2",
+          "timerID": 2
+        },
+        "end": {
+          "risc": "TRISC_2",
+          "timerID": 3
         }
       },
       "BRISC kernel start -> BRISC kernel end": {
