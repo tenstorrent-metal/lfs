@@ -457,7 +457,6 @@
   "setup": {
     "coreFreq": 1.2,
     "deviceAnalysisData": "device_analysis_data.json",
-    "deviceInputLog": "/home/mmemarian/tt-metal/tt_metal/third_party/lfs/profiler/tests/golden/device/outputs/test_out_of_order/profile_log_device.csv",
     "devicePerfHTML": "timeline.html",
     "deviceRearranged": "device_rearranged_timestamps.csv",
     "deviceStatsTXT": "device_stats.txt",
