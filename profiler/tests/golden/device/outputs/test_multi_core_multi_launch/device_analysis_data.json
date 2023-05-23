@@ -5,46 +5,57 @@
         "cores": {
           "(0, 0)": {
             "riscs": {
-              "NCRISC": {
-                "timeseries": [
-                  "(0, 154926163479927)",
-                  "(1, 154926163482717)",
-                  "(2, 154926163483764)",
-                  "(3, 154926163483806)",
-                  "(4, 154926163483848)",
-                  "(1, 154926164036833)",
-                  "(2, 154926164037880)",
-                  "(3, 154926164037922)",
-                  "(4, 154926164037964)"
-                ],
+              "BRISC": {
                 "analysis": {
-                  "NCRISC kernel start -> NCRISC kernel end": {
+                  "BRISC kernel start -> BRISC kernel end": {
                     "analysis": {
                       "across": "risc",
-                      "type": "adjacent",
+                      "end": {
+                        "risc": "BRISC",
+                        "timerID": 3
+                      },
                       "start": {
-                        "risc": "NCRISC",
+                        "risc": "BRISC",
                         "timerID": 2
                       },
-                      "end": {
-                        "risc": "NCRISC",
-                        "timerID": 3
-                      }
+                      "type": "adjacent"
                     },
                     "stats": {
+                      "Average": 75.0,
                       "Count": 2,
-                      "Average": 42.0,
-                      "Max": 42,
-                      "Min": 42,
+                      "First": 75,
+                      "Max": 75,
+                      "Median": 75.0,
+                      "Min": 75,
                       "Range": 0,
-                      "Median": 42.0,
-                      "Sum": 84,
-                      "First": 42
+                      "Sum": 150
+                    }
+                  },
+                  "FW start": {
+                    "analysis": {
+                      "across": "risc",
+                      "end": {
+                        "risc": "BRISC",
+                        "timerID": 1
+                      },
+                      "start": {
+                        "risc": "BRISC",
+                        "timerID": 0
+                      },
+                      "type": "adjacent"
+                    },
+                    "stats": {
+                      "Average": 0.0,
+                      "Count": 1,
+                      "First": 0,
+                      "Max": 0,
+                      "Median": 0.0,
+                      "Min": 0,
+                      "Range": 0,
+                      "Sum": 0
                     }
                   }
-                }
-              },
-              "BRISC": {
+                },
                 "timeseries": [
                   "(0, 154926163479927)",
                   "(1, 154926163479927)",
@@ -55,59 +66,122 @@
                   "(2, 154926164037193)",
                   "(3, 154926164037268)",
                   "(4, 154926164037348)"
-                ],
+                ]
+              },
+              "NCRISC": {
                 "analysis": {
-                  "BRISC kernel start -> BRISC kernel end": {
+                  "NCRISC kernel start -> NCRISC kernel end": {
                     "analysis": {
                       "across": "risc",
-                      "type": "adjacent",
+                      "end": {
+                        "risc": "NCRISC",
+                        "timerID": 3
+                      },
                       "start": {
-                        "risc": "BRISC",
+                        "risc": "NCRISC",
                         "timerID": 2
                       },
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 3
-                      }
+                      "type": "adjacent"
                     },
                     "stats": {
+                      "Average": 42.0,
                       "Count": 2,
-                      "Average": 75.0,
-                      "Max": 75,
-                      "Min": 75,
+                      "First": 42,
+                      "Max": 42,
+                      "Median": 42.0,
+                      "Min": 42,
                       "Range": 0,
-                      "Median": 75.0,
-                      "Sum": 150,
-                      "First": 75
+                      "Sum": 84
                     }
-                  },
-                  "FW start": {
+                  }
+                },
+                "timeseries": [
+                  "(0, 154926163479927)",
+                  "(1, 154926163482717)",
+                  "(2, 154926163483764)",
+                  "(3, 154926163483806)",
+                  "(4, 154926163483848)",
+                  "(1, 154926164036833)",
+                  "(2, 154926164037880)",
+                  "(3, 154926164037922)",
+                  "(4, 154926164037964)"
+                ]
+              },
+              "TENSIX": {
+                "analysis": {
+                  "Core end": {
                     "analysis": {
-                      "across": "risc",
-                      "type": "adjacent",
+                      "across": "core",
+                      "end": {
+                        "risc": "ANY",
+                        "timerID": 4
+                      },
                       "start": {
                         "risc": "BRISC",
                         "timerID": 0
                       },
+                      "type": "first_last"
+                    },
+                    "stats": {
+                      "Average": 558037.0,
+                      "Count": 1,
+                      "First": 558037,
+                      "Max": 558037,
+                      "Median": 558037.0,
+                      "Min": 558037,
+                      "Range": 0,
+                      "Sum": 558037
+                    }
+                  },
+                  "Core start -> Core end": {
+                    "analysis": {
+                      "across": "core",
+                      "end": {
+                        "risc": "ANY",
+                        "timerID": 4
+                      },
+                      "start": {
+                        "risc": "ANY",
+                        "timerID": 1
+                      },
+                      "type": "first_last"
+                    },
+                    "stats": {
+                      "Average": 558037.0,
+                      "Count": 1,
+                      "First": 558037,
+                      "Max": 558037,
+                      "Median": 558037.0,
+                      "Min": 558037,
+                      "Range": 0,
+                      "Sum": 558037
+                    }
+                  },
+                  "Launch delta": {
+                    "analysis": {
+                      "across": "core",
                       "end": {
                         "risc": "BRISC",
                         "timerID": 1
-                      }
+                      },
+                      "start": {
+                        "risc": "ANY",
+                        "timerID": 4
+                      },
+                      "type": "adjacent"
                     },
                     "stats": {
+                      "Average": 550195.0,
                       "Count": 1,
-                      "Average": 0.0,
-                      "Max": 0,
-                      "Min": 0,
+                      "First": 550195,
+                      "Max": 550195,
+                      "Median": 550195.0,
+                      "Min": 550195,
                       "Range": 0,
-                      "Median": 0.0,
-                      "Sum": 0,
-                      "First": 0
+                      "Sum": 550195
                     }
                   }
-                }
-              },
-              "TENSIX": {
+                },
                 "timeseries": [
                   "(0, 154926163479927, 'NCRISC')",
                   "(0, 154926163479927, 'BRISC')",
@@ -127,126 +201,63 @@
                   "(2, 154926164037880, 'NCRISC')",
                   "(3, 154926164037922, 'NCRISC')",
                   "(4, 154926164037964, 'NCRISC')"
-                ],
-                "analysis": {
-                  "Core end": {
-                    "analysis": {
-                      "across": "core",
-                      "type": "first_last",
-                      "start": {
-                        "risc": "BRISC",
-                        "timerID": 0
-                      },
-                      "end": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      }
-                    },
-                    "stats": {
-                      "Count": 1,
-                      "Average": 558037.0,
-                      "Max": 558037,
-                      "Min": 558037,
-                      "Range": 0,
-                      "Median": 558037.0,
-                      "Sum": 558037,
-                      "First": 558037
-                    }
-                  },
-                  "Core start -> Core end": {
-                    "analysis": {
-                      "across": "core",
-                      "type": "first_last",
-                      "start": {
-                        "risc": "ANY",
-                        "timerID": 1
-                      },
-                      "end": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      }
-                    },
-                    "stats": {
-                      "Count": 1,
-                      "Average": 558037.0,
-                      "Max": 558037,
-                      "Min": 558037,
-                      "Range": 0,
-                      "Median": 558037.0,
-                      "Sum": 558037,
-                      "First": 558037
-                    }
-                  },
-                  "Launch delta": {
-                    "analysis": {
-                      "across": "core",
-                      "type": "adjacent",
-                      "start": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      },
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 1
-                      }
-                    },
-                    "stats": {
-                      "Count": 1,
-                      "Average": 550195.0,
-                      "Max": 550195,
-                      "Min": 550195,
-                      "Range": 0,
-                      "Median": 550195.0,
-                      "Sum": 550195,
-                      "First": 550195
-                    }
-                  }
-                }
+                ]
               }
             }
           },
           "(1, 0)": {
             "riscs": {
-              "NCRISC": {
-                "timeseries": [
-                  "(0, 154926163479927)",
-                  "(1, 154926163482727)",
-                  "(2, 154926163483784)",
-                  "(3, 154926163483816)",
-                  "(4, 154926163483858)",
-                  "(1, 154926164036853)",
-                  "(2, 154926164037880)",
-                  "(3, 154926164037912)",
-                  "(4, 154926164037954)"
-                ],
+              "BRISC": {
                 "analysis": {
-                  "NCRISC kernel start -> NCRISC kernel end": {
+                  "BRISC kernel start -> BRISC kernel end": {
                     "analysis": {
                       "across": "risc",
-                      "type": "adjacent",
+                      "end": {
+                        "risc": "BRISC",
+                        "timerID": 3
+                      },
                       "start": {
-                        "risc": "NCRISC",
+                        "risc": "BRISC",
                         "timerID": 2
                       },
-                      "end": {
-                        "risc": "NCRISC",
-                        "timerID": 3
-                      }
+                      "type": "adjacent"
                     },
                     "stats": {
+                      "Average": 79.5,
                       "Count": 2,
-                      "Average": 32.0,
-                      "Max": 32,
-                      "Min": 32,
+                      "First": 85,
+                      "Max": 85,
+                      "Median": 79.5,
+                      "Min": 74,
+                      "Range": 11,
+                      "Sum": 159
+                    }
+                  },
+                  "FW start": {
+                    "analysis": {
+                      "across": "risc",
+                      "end": {
+                        "risc": "BRISC",
+                        "timerID": 1
+                      },
+                      "start": {
+                        "risc": "BRISC",
+                        "timerID": 0
+                      },
+                      "type": "adjacent"
+                    },
+                    "stats": {
+                      "Average": 10.0,
+                      "Count": 1,
+                      "First": 10,
+                      "Max": 10,
+                      "Median": 10.0,
+                      "Min": 10,
                       "Range": 0,
-                      "Median": 32.0,
-                      "Sum": 64,
-                      "First": 32
+                      "Sum": 10
                     }
                   }
-                }
-              },
-              "BRISC": {
+                },
                 "timeseries": [
                   "(0, 154926163479927)",
                   "(1, 154926163479937)",
@@ -257,59 +268,122 @@
                   "(2, 154926164037195)",
                   "(3, 154926164037269)",
                   "(4, 154926164037348)"
-                ],
+                ]
+              },
+              "NCRISC": {
                 "analysis": {
-                  "BRISC kernel start -> BRISC kernel end": {
+                  "NCRISC kernel start -> NCRISC kernel end": {
                     "analysis": {
                       "across": "risc",
-                      "type": "adjacent",
+                      "end": {
+                        "risc": "NCRISC",
+                        "timerID": 3
+                      },
                       "start": {
-                        "risc": "BRISC",
+                        "risc": "NCRISC",
                         "timerID": 2
                       },
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 3
-                      }
+                      "type": "adjacent"
                     },
                     "stats": {
+                      "Average": 32.0,
                       "Count": 2,
-                      "Average": 79.5,
-                      "Max": 85,
-                      "Min": 74,
-                      "Range": 11,
-                      "Median": 79.5,
-                      "Sum": 159,
-                      "First": 85
+                      "First": 32,
+                      "Max": 32,
+                      "Median": 32.0,
+                      "Min": 32,
+                      "Range": 0,
+                      "Sum": 64
                     }
-                  },
-                  "FW start": {
+                  }
+                },
+                "timeseries": [
+                  "(0, 154926163479927)",
+                  "(1, 154926163482727)",
+                  "(2, 154926163483784)",
+                  "(3, 154926163483816)",
+                  "(4, 154926163483858)",
+                  "(1, 154926164036853)",
+                  "(2, 154926164037880)",
+                  "(3, 154926164037912)",
+                  "(4, 154926164037954)"
+                ]
+              },
+              "TENSIX": {
+                "analysis": {
+                  "Core end": {
                     "analysis": {
-                      "across": "risc",
-                      "type": "adjacent",
+                      "across": "core",
+                      "end": {
+                        "risc": "ANY",
+                        "timerID": 4
+                      },
                       "start": {
                         "risc": "BRISC",
                         "timerID": 0
                       },
+                      "type": "first_last"
+                    },
+                    "stats": {
+                      "Average": 558027.0,
+                      "Count": 1,
+                      "First": 558027,
+                      "Max": 558027,
+                      "Median": 558027.0,
+                      "Min": 558027,
+                      "Range": 0,
+                      "Sum": 558027
+                    }
+                  },
+                  "Core start -> Core end": {
+                    "analysis": {
+                      "across": "core",
+                      "end": {
+                        "risc": "ANY",
+                        "timerID": 4
+                      },
+                      "start": {
+                        "risc": "ANY",
+                        "timerID": 1
+                      },
+                      "type": "first_last"
+                    },
+                    "stats": {
+                      "Average": 558017.0,
+                      "Count": 1,
+                      "First": 558017,
+                      "Max": 558017,
+                      "Median": 558017.0,
+                      "Min": 558017,
+                      "Range": 0,
+                      "Sum": 558017
+                    }
+                  },
+                  "Launch delta": {
+                    "analysis": {
+                      "across": "core",
                       "end": {
                         "risc": "BRISC",
                         "timerID": 1
-                      }
+                      },
+                      "start": {
+                        "risc": "ANY",
+                        "timerID": 4
+                      },
+                      "type": "adjacent"
                     },
                     "stats": {
+                      "Average": 550185.0,
                       "Count": 1,
-                      "Average": 10.0,
-                      "Max": 10,
-                      "Min": 10,
+                      "First": 550185,
+                      "Max": 550185,
+                      "Median": 550185.0,
+                      "Min": 550185,
                       "Range": 0,
-                      "Median": 10.0,
-                      "Sum": 10,
-                      "First": 10
+                      "Sum": 550185
                     }
                   }
-                }
-              },
-              "TENSIX": {
+                },
                 "timeseries": [
                   "(0, 154926163479927, 'NCRISC')",
                   "(0, 154926163479927, 'BRISC')",
@@ -329,108 +403,170 @@
                   "(2, 154926164037880, 'NCRISC')",
                   "(3, 154926164037912, 'NCRISC')",
                   "(4, 154926164037954, 'NCRISC')"
-                ],
-                "analysis": {
-                  "Core end": {
-                    "analysis": {
-                      "across": "core",
-                      "type": "first_last",
-                      "start": {
-                        "risc": "BRISC",
-                        "timerID": 0
-                      },
-                      "end": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      }
-                    },
-                    "stats": {
-                      "Count": 1,
-                      "Average": 558027.0,
-                      "Max": 558027,
-                      "Min": 558027,
-                      "Range": 0,
-                      "Median": 558027.0,
-                      "Sum": 558027,
-                      "First": 558027
-                    }
-                  },
-                  "Core start -> Core end": {
-                    "analysis": {
-                      "across": "core",
-                      "type": "first_last",
-                      "start": {
-                        "risc": "ANY",
-                        "timerID": 1
-                      },
-                      "end": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      }
-                    },
-                    "stats": {
-                      "Count": 1,
-                      "Average": 558017.0,
-                      "Max": 558017,
-                      "Min": 558017,
-                      "Range": 0,
-                      "Median": 558017.0,
-                      "Sum": 558017,
-                      "First": 558017
-                    }
-                  },
-                  "Launch delta": {
-                    "analysis": {
-                      "across": "core",
-                      "type": "adjacent",
-                      "start": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      },
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 1
-                      }
-                    },
-                    "stats": {
-                      "Count": 1,
-                      "Average": 550185.0,
-                      "Max": 550185,
-                      "Min": 550185,
-                      "Range": 0,
-                      "Median": 550185.0,
-                      "Sum": 550185,
-                      "First": 550185
-                    }
-                  }
-                }
+                ]
               }
             }
           },
           "DEVICE": {
-            "riscs": {
-              "NCRISC": {
-                "timeseries": [
-                  "(0, 154926163479927, (0, 0))",
-                  "(0, 154926163479927, (0, 0))",
-                  "(1, 154926163482717, (0, 0))",
-                  "(1, 154926163482727, (1, 0))",
-                  "(2, 154926163483764, (0, 0))",
-                  "(2, 154926163483784, (1, 0))",
-                  "(3, 154926163483806, (0, 0))",
-                  "(3, 154926163483816, (1, 0))",
-                  "(4, 154926163483848, (0, 0))",
-                  "(4, 154926163483858, (1, 0))",
-                  "(1, 154926164036833, (0, 0))",
-                  "(1, 154926164036853, (1, 0))",
-                  "(2, 154926164037880, (0, 0))",
-                  "(2, 154926164037880, (1, 0))",
-                  "(3, 154926164037912, (1, 0))",
-                  "(3, 154926164037922, (0, 0))",
-                  "(4, 154926164037954, (1, 0))",
-                  "(4, 154926164037964, (0, 0))"
-                ]
+            "analysis": {
+              "BRISC kernel start -> BRISC kernel end": {
+                "analysis": {
+                  "across": "risc",
+                  "end": {
+                    "risc": "BRISC",
+                    "timerID": 3
+                  },
+                  "start": {
+                    "risc": "BRISC",
+                    "timerID": 2
+                  },
+                  "type": "adjacent"
+                },
+                "stats": {
+                  "Average": 77.25,
+                  "Count": 4,
+                  "Max": 85,
+                  "Median": 77.25,
+                  "Min": 74,
+                  "Range": 11
+                }
               },
+              "Core end": {
+                "analysis": {
+                  "across": "core",
+                  "end": {
+                    "risc": "ANY",
+                    "timerID": 4
+                  },
+                  "start": {
+                    "risc": "BRISC",
+                    "timerID": 0
+                  },
+                  "type": "first_last"
+                },
+                "stats": {
+                  "Average": 558032.0,
+                  "Count": 2,
+                  "Max": 558037,
+                  "Median": 558032.0,
+                  "Min": 558027,
+                  "Range": 10
+                }
+              },
+              "Core start -> Core end": {
+                "analysis": {
+                  "across": "core",
+                  "end": {
+                    "risc": "ANY",
+                    "timerID": 4
+                  },
+                  "start": {
+                    "risc": "ANY",
+                    "timerID": 1
+                  },
+                  "type": "first_last"
+                },
+                "stats": {
+                  "Average": 558027.0,
+                  "Count": 2,
+                  "Max": 558037,
+                  "Median": 558027.0,
+                  "Min": 558017,
+                  "Range": 20
+                }
+              },
+              "Device start -> Device end": {
+                "analysis": {
+                  "across": "device",
+                  "end": {
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "timerID": 4
+                  },
+                  "start": {
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "timerID": 1
+                  },
+                  "type": "first_last"
+                },
+                "stats": {
+                  "Average": 558037.0,
+                  "Count": 1,
+                  "Max": 558037,
+                  "Median": 558037.0,
+                  "Min": 558037,
+                  "Range": 0
+                }
+              },
+              "FW start": {
+                "analysis": {
+                  "across": "risc",
+                  "end": {
+                    "risc": "BRISC",
+                    "timerID": 1
+                  },
+                  "start": {
+                    "risc": "BRISC",
+                    "timerID": 0
+                  },
+                  "type": "adjacent"
+                },
+                "stats": {
+                  "Average": 5.0,
+                  "Count": 2,
+                  "Max": 10,
+                  "Median": 5.0,
+                  "Min": 0,
+                  "Range": 10
+                }
+              },
+              "Launch delta": {
+                "analysis": {
+                  "across": "core",
+                  "end": {
+                    "risc": "BRISC",
+                    "timerID": 1
+                  },
+                  "start": {
+                    "risc": "ANY",
+                    "timerID": 4
+                  },
+                  "type": "adjacent"
+                },
+                "stats": {
+                  "Average": 550190.0,
+                  "Count": 2,
+                  "Max": 550195,
+                  "Median": 550190.0,
+                  "Min": 550185,
+                  "Range": 10
+                }
+              },
+              "NCRISC kernel start -> NCRISC kernel end": {
+                "analysis": {
+                  "across": "risc",
+                  "end": {
+                    "risc": "NCRISC",
+                    "timerID": 3
+                  },
+                  "start": {
+                    "risc": "NCRISC",
+                    "timerID": 2
+                  },
+                  "type": "adjacent"
+                },
+                "stats": {
+                  "Average": 37.0,
+                  "Count": 4,
+                  "Max": 42,
+                  "Median": 37.0,
+                  "Min": 32,
+                  "Range": 10
+                }
+              }
+            },
+            "riscs": {
               "BRISC": {
                 "timeseries": [
                   "(0, 154926163479927, (0, 0))",
@@ -453,7 +589,57 @@
                   "(4, 154926164037348, (1, 0))"
                 ]
               },
+              "NCRISC": {
+                "timeseries": [
+                  "(0, 154926163479927, (0, 0))",
+                  "(0, 154926163479927, (0, 0))",
+                  "(1, 154926163482717, (0, 0))",
+                  "(1, 154926163482727, (1, 0))",
+                  "(2, 154926163483764, (0, 0))",
+                  "(2, 154926163483784, (1, 0))",
+                  "(3, 154926163483806, (0, 0))",
+                  "(3, 154926163483816, (1, 0))",
+                  "(4, 154926163483848, (0, 0))",
+                  "(4, 154926163483858, (1, 0))",
+                  "(1, 154926164036833, (0, 0))",
+                  "(1, 154926164036853, (1, 0))",
+                  "(2, 154926164037880, (0, 0))",
+                  "(2, 154926164037880, (1, 0))",
+                  "(3, 154926164037912, (1, 0))",
+                  "(3, 154926164037922, (0, 0))",
+                  "(4, 154926164037954, (1, 0))",
+                  "(4, 154926164037964, (0, 0))"
+                ]
+              },
               "TENSIX": {
+                "analysis": {
+                  "Device start -> Device end": {
+                    "analysis": {
+                      "across": "device",
+                      "end": {
+                        "core": "ANY",
+                        "risc": "ANY",
+                        "timerID": 4
+                      },
+                      "start": {
+                        "core": "ANY",
+                        "risc": "ANY",
+                        "timerID": 1
+                      },
+                      "type": "first_last"
+                    },
+                    "stats": {
+                      "Average": 558037.0,
+                      "Count": 1,
+                      "First": 558037,
+                      "Max": 558037,
+                      "Median": 558037.0,
+                      "Min": 558037,
+                      "Range": 0,
+                      "Sum": 558037
+                    }
+                  }
+                },
                 "timeseries": [
                   "(0, 154926163479927, 'NCRISC', (0, 0))",
                   "(0, 154926163479927, 'BRISC', (0, 0))",
@@ -491,202 +677,16 @@
                   "(3, 154926164037922, 'NCRISC', (0, 0))",
                   "(4, 154926164037954, 'NCRISC', (1, 0))",
                   "(4, 154926164037964, 'NCRISC', (0, 0))"
-                ],
-                "analysis": {
-                  "Device start -> Device end": {
-                    "analysis": {
-                      "across": "device",
-                      "type": "first_last",
-                      "start": {
-                        "core": "ANY",
-                        "risc": "ANY",
-                        "timerID": 1
-                      },
-                      "end": {
-                        "core": "ANY",
-                        "risc": "ANY",
-                        "timerID": 4
-                      }
-                    },
-                    "stats": {
-                      "Count": 1,
-                      "Average": 558037.0,
-                      "Max": 558037,
-                      "Min": 558037,
-                      "Range": 0,
-                      "Median": 558037.0,
-                      "Sum": 558037,
-                      "First": 558037
-                    }
-                  }
-                }
-              }
-            },
-            "analysis": {
-              "NCRISC kernel start -> NCRISC kernel end": {
-                "analysis": {
-                  "across": "risc",
-                  "type": "adjacent",
-                  "start": {
-                    "risc": "NCRISC",
-                    "timerID": 2
-                  },
-                  "end": {
-                    "risc": "NCRISC",
-                    "timerID": 3
-                  }
-                },
-                "stats": {
-                  "Count": 4,
-                  "Average": 37.0,
-                  "Max": 42,
-                  "Min": 32,
-                  "Range": 10,
-                  "Median": 37.0
-                }
-              },
-              "BRISC kernel start -> BRISC kernel end": {
-                "analysis": {
-                  "across": "risc",
-                  "type": "adjacent",
-                  "start": {
-                    "risc": "BRISC",
-                    "timerID": 2
-                  },
-                  "end": {
-                    "risc": "BRISC",
-                    "timerID": 3
-                  }
-                },
-                "stats": {
-                  "Count": 4,
-                  "Average": 77.25,
-                  "Max": 85,
-                  "Min": 74,
-                  "Range": 11,
-                  "Median": 77.25
-                }
-              },
-              "FW start": {
-                "analysis": {
-                  "across": "risc",
-                  "type": "adjacent",
-                  "start": {
-                    "risc": "BRISC",
-                    "timerID": 0
-                  },
-                  "end": {
-                    "risc": "BRISC",
-                    "timerID": 1
-                  }
-                },
-                "stats": {
-                  "Count": 2,
-                  "Average": 5.0,
-                  "Max": 10,
-                  "Min": 0,
-                  "Range": 10,
-                  "Median": 5.0
-                }
-              },
-              "Core end": {
-                "analysis": {
-                  "across": "core",
-                  "type": "first_last",
-                  "start": {
-                    "risc": "BRISC",
-                    "timerID": 0
-                  },
-                  "end": {
-                    "risc": "ANY",
-                    "timerID": 4
-                  }
-                },
-                "stats": {
-                  "Count": 2,
-                  "Average": 558032.0,
-                  "Max": 558037,
-                  "Min": 558027,
-                  "Range": 10,
-                  "Median": 558032.0
-                }
-              },
-              "Core start -> Core end": {
-                "analysis": {
-                  "across": "core",
-                  "type": "first_last",
-                  "start": {
-                    "risc": "ANY",
-                    "timerID": 1
-                  },
-                  "end": {
-                    "risc": "ANY",
-                    "timerID": 4
-                  }
-                },
-                "stats": {
-                  "Count": 2,
-                  "Average": 558027.0,
-                  "Max": 558037,
-                  "Min": 558017,
-                  "Range": 20,
-                  "Median": 558027.0
-                }
-              },
-              "Launch delta": {
-                "analysis": {
-                  "across": "core",
-                  "type": "adjacent",
-                  "start": {
-                    "risc": "ANY",
-                    "timerID": 4
-                  },
-                  "end": {
-                    "risc": "BRISC",
-                    "timerID": 1
-                  }
-                },
-                "stats": {
-                  "Count": 2,
-                  "Average": 550190.0,
-                  "Max": 550195,
-                  "Min": 550185,
-                  "Range": 10,
-                  "Median": 550190.0
-                }
-              },
-              "Device start -> Device end": {
-                "analysis": {
-                  "across": "device",
-                  "type": "first_last",
-                  "start": {
-                    "core": "ANY",
-                    "risc": "ANY",
-                    "timerID": 1
-                  },
-                  "end": {
-                    "core": "ANY",
-                    "risc": "ANY",
-                    "timerID": 4
-                  }
-                },
-                "stats": {
-                  "Count": 1,
-                  "Average": 558037.0,
-                  "Max": 558037,
-                  "Min": 558037,
-                  "Range": 0,
-                  "Median": 558037.0
-                }
+                ]
               }
             }
           }
         },
         "metadata": {
           "global_min": {
-            "ts": 154926163479927,
+            "core": "(0, 0)",
             "risc": "BRISC",
-            "core": "(0, 0)"
+            "ts": 154926163479927
           }
         }
       }
@@ -723,6 +723,9 @@
       "NCRISC": {
         "color": "light:r"
       },
+      "TENSIX": {
+        "color": "light:b"
+      },
       "TRISC_0": {
         "color": "light:gray"
       },
@@ -731,133 +734,130 @@
       },
       "TRISC_2": {
         "color": "light:gray"
-      },
-      "TENSIX": {
-        "color": "light:b"
       }
     },
     "timerAnalysis": {
-      "FW start": {
-        "across": "risc",
-        "type": "adjacent",
-        "start": {
-          "risc": "BRISC",
-          "timerID": 0
-        },
-        "end": {
-          "risc": "BRISC",
-          "timerID": 1
-        }
-      },
-      "TRISC0 kernel start -> TRISC0 kernel end": {
-        "across": "risc",
-        "type": "adjacent",
-        "start": {
-          "risc": "TRISC_0",
-          "timerID": 2
-        },
-        "end": {
-          "risc": "TRISC_0",
-          "timerID": 3
-        }
-      },
-      "TRISC1 kernel start -> TRISC1 kernel end": {
-        "across": "risc",
-        "type": "adjacent",
-        "start": {
-          "risc": "TRISC_1",
-          "timerID": 2
-        },
-        "end": {
-          "risc": "TRISC_1",
-          "timerID": 3
-        }
-      },
-      "TRISC2 kernel start -> TRISC2 kernel end": {
-        "across": "risc",
-        "type": "adjacent",
-        "start": {
-          "risc": "TRISC_2",
-          "timerID": 2
-        },
-        "end": {
-          "risc": "TRISC_2",
-          "timerID": 3
-        }
-      },
       "BRISC kernel start -> BRISC kernel end": {
         "across": "risc",
-        "type": "adjacent",
+        "end": {
+          "risc": "BRISC",
+          "timerID": 3
+        },
         "start": {
           "risc": "BRISC",
           "timerID": 2
         },
-        "end": {
-          "risc": "BRISC",
-          "timerID": 3
-        }
-      },
-      "NCRISC kernel start -> NCRISC kernel end": {
-        "across": "risc",
-        "type": "adjacent",
-        "start": {
-          "risc": "NCRISC",
-          "timerID": 2
-        },
-        "end": {
-          "risc": "NCRISC",
-          "timerID": 3
-        }
-      },
-      "Launch delta": {
-        "across": "core",
-        "type": "adjacent",
-        "start": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "end": {
-          "risc": "BRISC",
-          "timerID": 1
-        }
+        "type": "adjacent"
       },
       "Core end": {
         "across": "core",
-        "type": "first_last",
+        "end": {
+          "risc": "ANY",
+          "timerID": 4
+        },
         "start": {
           "risc": "BRISC",
           "timerID": 0
         },
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        }
+        "type": "first_last"
       },
       "Core start -> Core end": {
         "across": "core",
-        "type": "first_last",
+        "end": {
+          "risc": "ANY",
+          "timerID": 4
+        },
         "start": {
           "risc": "ANY",
           "timerID": 1
         },
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        }
+        "type": "first_last"
       },
       "Device start -> Device end": {
         "across": "device",
-        "type": "first_last",
+        "end": {
+          "core": "ANY",
+          "risc": "ANY",
+          "timerID": 4
+        },
         "start": {
           "core": "ANY",
           "risc": "ANY",
           "timerID": 1
         },
+        "type": "first_last"
+      },
+      "FW start": {
+        "across": "risc",
         "end": {
-          "core": "ANY",
+          "risc": "BRISC",
+          "timerID": 1
+        },
+        "start": {
+          "risc": "BRISC",
+          "timerID": 0
+        },
+        "type": "adjacent"
+      },
+      "Launch delta": {
+        "across": "core",
+        "end": {
+          "risc": "BRISC",
+          "timerID": 1
+        },
+        "start": {
           "risc": "ANY",
           "timerID": 4
-        }
+        },
+        "type": "adjacent"
+      },
+      "NCRISC kernel start -> NCRISC kernel end": {
+        "across": "risc",
+        "end": {
+          "risc": "NCRISC",
+          "timerID": 3
+        },
+        "start": {
+          "risc": "NCRISC",
+          "timerID": 2
+        },
+        "type": "adjacent"
+      },
+      "TRISC0 kernel start -> TRISC0 kernel end": {
+        "across": "risc",
+        "end": {
+          "risc": "TRISC_0",
+          "timerID": 3
+        },
+        "start": {
+          "risc": "TRISC_0",
+          "timerID": 2
+        },
+        "type": "adjacent"
+      },
+      "TRISC1 kernel start -> TRISC1 kernel end": {
+        "across": "risc",
+        "end": {
+          "risc": "TRISC_1",
+          "timerID": 3
+        },
+        "start": {
+          "risc": "TRISC_1",
+          "timerID": 2
+        },
+        "type": "adjacent"
+      },
+      "TRISC2 kernel start -> TRISC2 kernel end": {
+        "across": "risc",
+        "end": {
+          "risc": "TRISC_2",
+          "timerID": 3
+        },
+        "start": {
+          "risc": "TRISC_2",
+          "timerID": 2
+        },
+        "type": "adjacent"
       }
     },
     "timerIDLabels": [
