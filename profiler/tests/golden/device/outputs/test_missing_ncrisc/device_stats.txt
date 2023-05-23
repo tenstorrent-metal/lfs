@@ -1,5 +1,5 @@
 
-=================== FW start ===================
+=================== T0 -> BRISC FW start ===================
     Duration [cycles] =          0
 
                         0                1                2                3                4                5                6                7                8                9               10               11
@@ -45,7 +45,32 @@
 
 
 
-=================== Launch delta ===================
+=================== ANY RISC FW start -> ANY RISC FW end ===================
+       Count [cycles] =          2
+     Average [cycles] =      3,265
+         Max [cycles] =      3,265
+      Median [cycles] =      3,265
+         Min [cycles] =      3,265
+
+                        0                1                2                3                4                5                6                7                8                9               10               11
+        ============================================================================================================================================================================================================
+                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
+ 0|| ---          3,265±0                X                X                X                X                X                X                X                X                X                X                X
+ 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
+ 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
+ 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
+ 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+
+
+
+=================== ANY RISC FW end -> BRISC FW start ===================
     Duration [cycles] =    449,378
 
                         0                1                2                3                4                5                6                7                8                9               10               11
@@ -66,7 +91,7 @@
 
 
 
-=================== Core end ===================
+=================== T0 -> ANY RISC FW end ===================
     Duration [cycles] =    455,908
 
                         0                1                2                3                4                5                6                7                8                9               10               11
@@ -87,7 +112,7 @@
 
 
 
-=================== Core start -> Core end ===================
+=================== BRISC FW start -> ANY RISC FW end ===================
     Duration [cycles] =    455,908
 
                         0                1                2                3                4                5                6                7                8                9               10               11
@@ -108,6 +133,6 @@
 
 
 
-=================== Device start -> Device end ===================
+=================== T0 -> ANY CORE ANY RISC FW end ===================
     Duration [cycles] =    455,908
 
