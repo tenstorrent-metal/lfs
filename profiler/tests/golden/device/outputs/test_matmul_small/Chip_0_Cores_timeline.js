@@ -740,7 +740,18 @@ if (document.getElementById("random_id_replaced_for_automation")) {
             }
         },
         "barmode": "stack",
-        "height": 800
+        "height": 700,
+        "annotations": [{
+            "ax": 0,
+            "ay": 0,
+            "bgcolor": "rgba(255,255,0,1)",
+            "text": "T0",
+            "x": 0,
+            "xanchor": "left",
+            "y": [
+                [0, 3], "BRISC"
+            ]
+        }]
     }, {
         "responsive": true
     })

@@ -6,32 +6,6 @@
           "(0, 0)": {
             "riscs": {
               "BRISC": {
-                "analysis": {
-                  "FW start": {
-                    "analysis": {
-                      "across": "risc",
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 1
-                      },
-                      "start": {
-                        "risc": "BRISC",
-                        "timerID": 0
-                      },
-                      "type": "adjacent"
-                    },
-                    "stats": {
-                      "Average": 0.0,
-                      "Count": 1,
-                      "First": 0,
-                      "Max": 0,
-                      "Median": 0.0,
-                      "Min": 0,
-                      "Range": 0,
-                      "Sum": 0
-                    }
-                  }
-                },
                 "timeseries": [
                   "(0, 298094208920123)",
                   "(1, 298094208920123)",
@@ -176,6 +150,170 @@
                 ]
               },
               "TENSIX": {
+                "analysis": {
+                  "T0 -> BRISC FW start": {
+                    "analysis": {
+                      "across": "core",
+                      "end": {
+                        "risc": "BRISC",
+                        "timerID": 1
+                      },
+                      "start": {
+                        "risc": "BRISC",
+                        "timerID": 0
+                      },
+                      "type": "adjacent"
+                    },
+                    "stats": {
+                      "Average": 0.0,
+                      "Count": 1,
+                      "First": 0,
+                      "Max": 0,
+                      "Median": 0.0,
+                      "Min": 0,
+                      "Range": 0,
+                      "Sum": 0
+                    }
+                  }
+                },
+                "launches": [
+                  [
+                    "(1, 298094208920123, 'BRISC')",
+                    "(2, 298094208923513, 'BRISC')",
+                    "(1, 298094208923559, 'NCRISC')",
+                    "(5, 298094208923692, 'BRISC')",
+                    "(5, 298094208923735, 'BRISC')",
+                    "(2, 298094208924882, 'NCRISC')",
+                    "(6, 298094208933451, 'NCRISC')",
+                    "(6, 298094208942224, 'NCRISC')",
+                    "(6, 298094209013727, 'NCRISC')",
+                    "(6, 298094209097572, 'NCRISC')",
+                    "(6, 298094209180430, 'NCRISC')",
+                    "(6, 298094209264380, 'NCRISC')",
+                    "(6, 298094209348247, 'NCRISC')",
+                    "(6, 298094209432055, 'NCRISC')",
+                    "(6, 298094209514939, 'NCRISC')",
+                    "(6, 298094209598938, 'NCRISC')",
+                    "(6, 298094209682890, 'NCRISC')",
+                    "(6, 298094209766062, 'NCRISC')",
+                    "(6, 298094209849629, 'NCRISC')",
+                    "(6, 298094209933542, 'NCRISC')",
+                    "(6, 298094210017311, 'NCRISC')",
+                    "(6, 298094210100466, 'NCRISC')",
+                    "(6, 298094210184046, 'NCRISC')",
+                    "(6, 298094210267993, 'NCRISC')",
+                    "(6, 298094210351748, 'NCRISC')",
+                    "(6, 298094210435553, 'NCRISC')",
+                    "(6, 298094210518472, 'NCRISC')",
+                    "(6, 298094210602313, 'NCRISC')",
+                    "(6, 298094210686224, 'NCRISC')",
+                    "(6, 298094210769925, 'NCRISC')",
+                    "(6, 298094210852759, 'NCRISC')",
+                    "(6, 298094210936887, 'NCRISC')",
+                    "(6, 298094211020710, 'NCRISC')",
+                    "(6, 298094211103869, 'NCRISC')",
+                    "(6, 298094211187449, 'NCRISC')",
+                    "(6, 298094211271416, 'NCRISC')",
+                    "(6, 298094211355257, 'NCRISC')",
+                    "(6, 298094211439076, 'NCRISC')",
+                    "(6, 298094211522042, 'NCRISC')",
+                    "(6, 298094211605994, 'NCRISC')",
+                    "(6, 298094211689804, 'NCRISC')",
+                    "(6, 298094211773638, 'NCRISC')",
+                    "(6, 298094211856497, 'NCRISC')",
+                    "(6, 298094211940409, 'NCRISC')",
+                    "(6, 298094212024340, 'NCRISC')",
+                    "(6, 298094212108080, 'NCRISC')",
+                    "(6, 298094212190995, 'NCRISC')",
+                    "(6, 298094212274974, 'NCRISC')",
+                    "(6, 298094212358795, 'NCRISC')",
+                    "(6, 298094212441949, 'NCRISC')",
+                    "(6, 298094212525517, 'NCRISC')",
+                    "(6, 298094212609447, 'NCRISC')",
+                    "(6, 298094212693206, 'NCRISC')",
+                    "(6, 298094212777098, 'NCRISC')",
+                    "(6, 298094212860039, 'NCRISC')",
+                    "(6, 298094212943902, 'NCRISC')",
+                    "(6, 298094213027812, 'NCRISC')",
+                    "(6, 298094213111534, 'NCRISC')",
+                    "(6, 298094213194425, 'NCRISC')",
+                    "(6, 298094213278493, 'NCRISC')",
+                    "(6, 298094213362315, 'NCRISC')",
+                    "(6, 298094213445490, 'NCRISC')",
+                    "(6, 298094213529051, 'NCRISC')",
+                    "(6, 298094213613003, 'NCRISC')",
+                    "(6, 298094213696897, 'NCRISC')",
+                    "(6, 298094213780080, 'NCRISC')",
+                    "(6, 298094213863682, 'NCRISC')",
+                    "(6, 298094213947605, 'NCRISC')",
+                    "(6, 298094214031440, 'NCRISC')",
+                    "(6, 298094214115260, 'NCRISC')",
+                    "(6, 298094214198110, 'NCRISC')",
+                    "(5, 298094216869152, 'BRISC')",
+                    "(5, 298094216869212, 'BRISC')",
+                    "(5, 298094216869312, 'BRISC')",
+                    "(5, 298094216869424, 'BRISC')",
+                    "(5, 298094216869471, 'BRISC')",
+                    "(5, 298094216869554, 'BRISC')",
+                    "(5, 298094216869648, 'BRISC')",
+                    "(5, 298094216869695, 'BRISC')",
+                    "(5, 298094216869778, 'BRISC')",
+                    "(5, 298094216869872, 'BRISC')",
+                    "(5, 298094216869919, 'BRISC')",
+                    "(5, 298094216870002, 'BRISC')",
+                    "(5, 298094216871575, 'BRISC')",
+                    "(5, 298094216871767, 'BRISC')",
+                    "(5, 298094216871812, 'BRISC')",
+                    "(5, 298094216871897, 'BRISC')",
+                    "(5, 298094216871991, 'BRISC')",
+                    "(5, 298094216872038, 'BRISC')",
+                    "(5, 298094216872121, 'BRISC')",
+                    "(5, 298094216872215, 'BRISC')",
+                    "(5, 298094216872262, 'BRISC')",
+                    "(5, 298094216872345, 'BRISC')",
+                    "(5, 298094216872439, 'BRISC')",
+                    "(5, 298094216872486, 'BRISC')",
+                    "(5, 298094216872569, 'BRISC')",
+                    "(5, 298094216874248, 'BRISC')",
+                    "(5, 298094216874387, 'BRISC')",
+                    "(5, 298094216874434, 'BRISC')",
+                    "(5, 298094216874519, 'BRISC')",
+                    "(5, 298094216874613, 'BRISC')",
+                    "(5, 298094216874660, 'BRISC')",
+                    "(5, 298094216874743, 'BRISC')",
+                    "(5, 298094216874837, 'BRISC')",
+                    "(5, 298094216874884, 'BRISC')",
+                    "(5, 298094216874967, 'BRISC')",
+                    "(5, 298094216875061, 'BRISC')",
+                    "(5, 298094216875108, 'BRISC')",
+                    "(5, 298094216875191, 'BRISC')",
+                    "(5, 298094216876861, 'BRISC')",
+                    "(5, 298094216877000, 'BRISC')",
+                    "(5, 298094216877047, 'BRISC')",
+                    "(5, 298094216877134, 'BRISC')",
+                    "(5, 298094216877230, 'BRISC')",
+                    "(5, 298094216877277, 'BRISC')",
+                    "(5, 298094216877360, 'BRISC')",
+                    "(5, 298094216877454, 'BRISC')",
+                    "(5, 298094216877501, 'BRISC')",
+                    "(5, 298094216877584, 'BRISC')",
+                    "(5, 298094216877678, 'BRISC')",
+                    "(5, 298094216877725, 'BRISC')",
+                    "(5, 298094216877808, 'BRISC')",
+                    "(5, 298094216879482, 'BRISC')",
+                    "(5, 298094216879611, 'BRISC')",
+                    "(5, 298094216879658, 'BRISC')",
+                    "(5, 298094216879741, 'BRISC')",
+                    "(5, 298094216879837, 'BRISC')",
+                    "(5, 298094216879884, 'BRISC')",
+                    "(5, 298094216879967, 'BRISC')",
+                    "(5, 298094216880061, 'BRISC')",
+                    "(5, 298094216880108, 'BRISC')",
+                    "(5, 298094216880191, 'BRISC')",
+                    "(5, 298094216880285, 'BRISC')",
+                    "(5, 298094216880332, 'BRISC')"
+                  ]
+                ],
                 "timeseries": [
                   "(0, 298094208920123, 'NCRISC')",
                   "(0, 298094208920123, 'BRISC')",
@@ -319,9 +457,9 @@
           },
           "DEVICE": {
             "analysis": {
-              "FW start": {
+              "T0 -> BRISC FW start": {
                 "analysis": {
-                  "across": "risc",
+                  "across": "core",
                   "end": {
                     "risc": "BRISC",
                     "timerID": 1
@@ -656,7 +794,7 @@
     ],
     "outputFolder": "output",
     "plotBaseHeight": 200,
-    "plotPerCoreHeight": 120,
+    "plotPerCoreHeight": 100,
     "riscs": [
       "BRISC",
       "NCRISC",
@@ -685,8 +823,44 @@
       }
     },
     "timerAnalysis": {
+      "ANY RISC FW end -> BRISC FW start": {
+        "across": "core",
+        "end": {
+          "risc": "BRISC",
+          "timerID": 1
+        },
+        "start": {
+          "risc": "ANY",
+          "timerID": 4
+        },
+        "type": "adjacent"
+      },
+      "ANY RISC FW start -> ANY RISC FW end": {
+        "across": "core",
+        "end": {
+          "risc": "ANY",
+          "timerID": 4
+        },
+        "start": {
+          "risc": "ANY",
+          "timerID": 1
+        },
+        "type": "launch_first_last"
+      },
+      "BRISC FW start -> ANY RISC FW end": {
+        "across": "core",
+        "end": {
+          "risc": "ANY",
+          "timerID": 4
+        },
+        "start": {
+          "risc": "ANY",
+          "timerID": 1
+        },
+        "type": "session_first_last"
+      },
       "BRISC kernel start -> BRISC kernel end": {
-        "across": "risc",
+        "across": "core",
         "end": {
           "risc": "BRISC",
           "timerID": 3
@@ -697,31 +871,19 @@
         },
         "type": "adjacent"
       },
-      "Core end": {
+      "NCRISC kernel start -> NCRISC kernel end": {
         "across": "core",
         "end": {
-          "risc": "ANY",
-          "timerID": 4
+          "risc": "NCRISC",
+          "timerID": 3
         },
         "start": {
-          "risc": "BRISC",
-          "timerID": 0
+          "risc": "NCRISC",
+          "timerID": 2
         },
-        "type": "first_last"
+        "type": "adjacent"
       },
-      "Core start -> Core end": {
-        "across": "core",
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 1
-        },
-        "type": "first_last"
-      },
-      "Device start -> Device end": {
+      "T0 -> ANY CORE ANY RISC FW end": {
         "across": "device",
         "end": {
           "core": "ANY",
@@ -733,10 +895,22 @@
           "risc": "ANY",
           "timerID": 1
         },
-        "type": "first_last"
+        "type": "session_first_last"
       },
-      "FW start": {
-        "across": "risc",
+      "T0 -> ANY RISC FW end": {
+        "across": "core",
+        "end": {
+          "risc": "ANY",
+          "timerID": 4
+        },
+        "start": {
+          "risc": "BRISC",
+          "timerID": 0
+        },
+        "type": "session_first_last"
+      },
+      "T0 -> BRISC FW start": {
+        "across": "core",
         "end": {
           "risc": "BRISC",
           "timerID": 1
@@ -747,32 +921,8 @@
         },
         "type": "adjacent"
       },
-      "Launch delta": {
-        "across": "core",
-        "end": {
-          "risc": "BRISC",
-          "timerID": 1
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "type": "adjacent"
-      },
-      "NCRISC kernel start -> NCRISC kernel end": {
-        "across": "risc",
-        "end": {
-          "risc": "NCRISC",
-          "timerID": 3
-        },
-        "start": {
-          "risc": "NCRISC",
-          "timerID": 2
-        },
-        "type": "adjacent"
-      },
       "TRISC0 kernel start -> TRISC0 kernel end": {
-        "across": "risc",
+        "across": "core",
         "end": {
           "risc": "TRISC_0",
           "timerID": 3
@@ -784,7 +934,7 @@
         "type": "adjacent"
       },
       "TRISC1 kernel start -> TRISC1 kernel end": {
-        "across": "risc",
+        "across": "core",
         "end": {
           "risc": "TRISC_1",
           "timerID": 3
@@ -796,7 +946,7 @@
         "type": "adjacent"
       },
       "TRISC2 kernel start -> TRISC2 kernel end": {
-        "across": "risc",
+        "across": "core",
         "end": {
           "risc": "TRISC_2",
           "timerID": 3

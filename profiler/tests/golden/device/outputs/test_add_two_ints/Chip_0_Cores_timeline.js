@@ -789,7 +789,38 @@ if (document.getElementById("random_id_replaced_for_automation")) {
             }
         },
         "barmode": "stack",
-        "height": 320
+        "height": 300,
+        "annotations": [{
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 0,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 2",
+            "x": 461940,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 0,
+            "bgcolor": "rgba(255,255,0,1)",
+            "text": "T0",
+            "x": 0,
+            "xanchor": "left",
+            "y": [
+                [0, 0], "BRISC"
+            ]
+        }]
     }, {
         "responsive": true
     })

@@ -5792,7 +5792,1228 @@ if (document.getElementById("random_id_replaced_for_automation")) {
             }
         },
         "barmode": "stack",
-        "height": 14600
+        "height": 12200,
+        "annotations": [{
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 162,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 153,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 139,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 124,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 110,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 101,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 86,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 83,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 79,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 75,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 67,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 63,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 9], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 154,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 145,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 130,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 116,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 101,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 92,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 78,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 74,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 70,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 67,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 58,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 55,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 8], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 145,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 135,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 121,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 107,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 92,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 83,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 69,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 65,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 61,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 53,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 49,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 45,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 7], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 135,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 126,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 112,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 97,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 83,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 74,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 59,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 56,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 52,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 43,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 40,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 36,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 6], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 126,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 112,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 102,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 88,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 74,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 59,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 50,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 46,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 43,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 34,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 30,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 27,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 5], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 108,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 93,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 84,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 70,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 55,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 41,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 32,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 28,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 24,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 16,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 12,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 8,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 4], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 99,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 90,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 76,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 61,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 47,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 38,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 23,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 20,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 16,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 7,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 4,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 0,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 3], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 199,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 189,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 175,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 161,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 146,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 137,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 123,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 119,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 115,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 107,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 103,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 99,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 2], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 190,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 181,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 166,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 152,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 137,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 128,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 114,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 110,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 107,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 103,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 94,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 91,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 1], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 181,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [11, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 171,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [10, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 157,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [9, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 143,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [8, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 128,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [7, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 119,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [6, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 105,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [5, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 101,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [4, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 97,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [3, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 94,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [2, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 85,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [1, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 1",
+            "x": 81,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 30,
+            "text": "Launch 2",
+            "x": 1000081,
+            "xanchor": "left",
+            "xshift": -2,
+            "y": [
+                [0, 0], "BRISC"
+            ]
+        }, {
+            "ax": 0,
+            "ay": 0,
+            "bgcolor": "rgba(255,255,0,1)",
+            "text": "T0",
+            "x": 0,
+            "xanchor": "left",
+            "y": [
+                [0, 3], "BRISC"
+            ]
+        }]
     }, {
         "responsive": true
     })
