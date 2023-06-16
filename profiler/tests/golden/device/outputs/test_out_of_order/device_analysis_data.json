@@ -533,7 +533,7 @@
       "Median",
       "Min"
     ],
-    "outputFolder": "output",
+    "outputFolder": "output/device",
     "plotBaseHeight": 200,
     "plotPerCoreHeight": 100,
     "riscs": [
