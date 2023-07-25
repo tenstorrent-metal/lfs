@@ -122,6 +122,7 @@
   "setup": {
     "coreFreq": 1.2,
     "deviceAnalysisData": "device_analysis_data.json",
+    "deviceChromeTracing": "device_chrome_tracing.json",
     "devicePerfHTML": "timeline.html",
     "deviceRearranged": "device_rearranged_timestamps.csv",
     "deviceStatsTXT": "device_stats.txt",

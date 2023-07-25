@@ -1,0 +1,115 @@
+[
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "cat": "PERF",
+    "name": "NCRISC",
+    "ph": "B",
+    "pid": 2,
+    "tid": 2,
+    "ts": 512868455662463
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "cat": "PERF",
+    "name": "NCRISC",
+    "ph": "E",
+    "pid": 2,
+    "tid": 2,
+    "ts": 512868455663568
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "cat": "PERF",
+    "name": "NCRISC",
+    "ph": "B",
+    "pid": 2,
+    "tid": 2,
+    "ts": 512868455662463
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "cat": "PERF",
+    "name": "NCRISC",
+    "ph": "E",
+    "pid": 2,
+    "tid": 2,
+    "ts": 512868456116211
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  }
+]

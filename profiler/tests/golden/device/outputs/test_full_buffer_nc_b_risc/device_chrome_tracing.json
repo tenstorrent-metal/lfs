@@ -1,0 +1,1242 @@
+[
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "cat": "PERF",
+    "name": "BRISC",
+    "ph": "B",
+    "pid": 1,
+    "tid": 1,
+    "ts": 298094208920123
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "cat": "PERF",
+    "name": "NCRISC",
+    "ph": "B",
+    "pid": 2,
+    "tid": 2,
+    "ts": 298094208920123
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 2,
+    "tid": 2
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  },
+  {
+    "args": {
+      "name": "(0, 0)"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 1,
+    "tid": 1
+  }
+]
