@@ -1,5 +1,9 @@
 {
   "data": {
+    "deviceInfo": {
+      "arch": "grayskull",
+      "freq": 1200
+    },
     "devices": {
       "0": {
         "cores": {
@@ -224,7 +228,6 @@
     }
   },
   "setup": {
-    "coreFreq": 1.2,
     "deviceAnalysisData": "device_analysis_data.json",
     "deviceChromeTracing": "device_chrome_tracing.json",
     "devicePerfHTML": "timeline.html",

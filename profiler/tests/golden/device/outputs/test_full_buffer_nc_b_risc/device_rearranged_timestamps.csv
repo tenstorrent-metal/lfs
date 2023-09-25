@@ -1,4 +1,4 @@
-Clock Frequency [GHz],1.2
+Clock Frequency [MHz],1200
 PCIe slot,0
 core x,core y,BRISC Firmware Start,BRISC Kernel start,BRISC Kernel End,BRISC Firmware End,NCRISC Firmware Start,NCRISC Kernel start,NCRISC Kernel End,NCRISC Firmware End
 0,0,298094208920123,298094208923513,,,298094208923559,298094208924882,,
