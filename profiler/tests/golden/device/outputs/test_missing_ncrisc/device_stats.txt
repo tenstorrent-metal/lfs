@@ -21,41 +21,18 @@
 
 
 =================== BRISC kernel start -> BRISC kernel end ===================
-       Count [cycles] =          2
+       Count          =          2
      Average [cycles] =         64
          Max [cycles] =         64
       Median [cycles] =         64
          Min [cycles] =         64
+         Sum [cycles] =        128
+       Range [cycles] =          0
 
                         0                1                2                3                4                5                6                7                8                9               10               11
         ============================================================================================================================================================================================================
                     DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
  0|| ---             64±0                X                X                X                X                X                X                X                X                X                X                X
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-
-
-
-
-=================== ANY RISC FW start -> ANY RISC FW end ===================
-       Count [cycles] =          2
-     Average [cycles] =      3,265
-         Max [cycles] =      3,265
-      Median [cycles] =      3,265
-         Min [cycles] =      3,265
-
-                        0                1                2                3                4                5                6                7                8                9               10               11
-        ============================================================================================================================================================================================================
-                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 0|| ---          3,265±0                X                X                X                X                X                X                X                X                X                X                X
  1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
  2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
@@ -89,50 +66,4 @@
  9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
 
 
-
-
-=================== T0 -> ANY RISC FW end ===================
-    Duration [cycles] =    455,908
-
-                        0                1                2                3                4                5                6                7                8                9               10               11
-        ============================================================================================================================================================================================================
-                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 0|| ---          455,908                X                X                X                X                X                X                X                X                X                X                X
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-
-
-
-
-=================== BRISC FW start -> ANY RISC FW end ===================
-    Duration [cycles] =    455,908
-
-                        0                1                2                3                4                5                6                7                8                9               10               11
-        ============================================================================================================================================================================================================
-                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 0|| ---          455,908                X                X                X                X                X                X                X                X                X                X                X
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-
-
-
-
-=================== T0 -> ANY CORE ANY RISC FW end ===================
-    Duration [cycles] =    455,908
 

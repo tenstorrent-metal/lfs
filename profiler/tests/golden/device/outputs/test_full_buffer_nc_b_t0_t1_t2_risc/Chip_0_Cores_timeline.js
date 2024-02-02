@@ -18,7 +18,7 @@ if (document.getElementById("random_id_replaced_for_automation")) {
         "customdata": ["Start->Firmware Start"],
         "hovertemplate": "%{customdata}<br>%{x} cycles",
         "marker": {
-            "color": "rgba(255, 255, 255, 0.0)"
+            "color": "rgb(135,206,250)"
         },
         "name": "",
         "orientation": "h",
@@ -290,7 +290,7 @@ if (document.getElementById("random_id_replaced_for_automation")) {
         "customdata": ["Start->Firmware Start"],
         "hovertemplate": "%{customdata}<br>%{x} cycles",
         "marker": {
-            "color": "rgba(255, 255, 255, 0.0)"
+            "color": "rgb(135,206,250)"
         },
         "name": "",
         "orientation": "h",
@@ -562,7 +562,7 @@ if (document.getElementById("random_id_replaced_for_automation")) {
         "customdata": ["Start->Firmware Start"],
         "hovertemplate": "%{customdata}<br>%{x} cycles",
         "marker": {
-            "color": "rgba(255, 255, 255, 0.0)"
+            "color": "rgb(135,206,250)"
         },
         "name": "",
         "orientation": "h",
@@ -834,7 +834,7 @@ if (document.getElementById("random_id_replaced_for_automation")) {
         "customdata": ["Start->Firmware Start"],
         "hovertemplate": "%{customdata}<br>%{x} cycles",
         "marker": {
-            "color": "rgba(255, 255, 255, 0.0)"
+            "color": "rgb(135,206,250)"
         },
         "name": "",
         "orientation": "h",
@@ -1106,7 +1106,7 @@ if (document.getElementById("random_id_replaced_for_automation")) {
         "customdata": ["Start->Firmware Start"],
         "hovertemplate": "%{customdata}<br>%{x} cycles",
         "marker": {
-            "color": "rgba(255, 255, 255, 0.0)"
+            "color": "rgb(135,206,250)"
         },
         "name": "",
         "orientation": "h",
@@ -1392,7 +1392,12 @@ if (document.getElementById("random_id_replaced_for_automation")) {
         "xaxis": {
             "title": {
                 "text": "Cycle count"
-            }
+            },
+            "showspikes": true,
+            "spikecolor": "green",
+            "spikesnap": "cursor",
+            "spikemode": "across",
+            "spikethickness": 0.5
         },
         "template": {
             "data": {
@@ -1877,18 +1882,7 @@ if (document.getElementById("random_id_replaced_for_automation")) {
             }
         },
         "barmode": "stack",
-        "height": 300,
-        "annotations": [{
-            "ax": 0,
-            "ay": 0,
-            "bgcolor": "rgba(255,255,0,1)",
-            "text": "T0",
-            "x": 0,
-            "xanchor": "left",
-            "y": [
-                [0, 0], "BRISC"
-            ]
-        }]
+        "height": 300
     }, {
         "responsive": true
     })
