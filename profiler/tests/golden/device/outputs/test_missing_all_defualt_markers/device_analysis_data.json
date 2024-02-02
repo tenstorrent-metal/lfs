@@ -38,8 +38,6 @@
                 ]
               },
               "TENSIX": {
-                "durations": [],
-                "launches": [],
                 "timeseries": [
                   "(0, 620014949326646, 'BRISC')",
                   "(0, 620014949326646, 'NCRISC')",
@@ -130,6 +128,7 @@
     }
   },
   "setup": {
+    "cycleRange": null,
     "deviceAnalysisData": "device_analysis_data.json",
     "deviceChromeTracing": "device_chrome_tracing.json",
     "devicePerfHTML": "timeline.html",
@@ -141,8 +140,14 @@
       "Average",
       "Max",
       "Median",
-      "Min"
+      "Min",
+      "Sum",
+      "Range"
     ],
+    "ignoreMarkers": [
+      65535
+    ],
+    "intrestingCores": null,
     "outputFolder": "output/device",
     "plotBaseHeight": 200,
     "plotPerCoreHeight": 100,

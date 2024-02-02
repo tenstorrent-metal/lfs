@@ -25,30 +25,6 @@
               },
               "TENSIX": {
                 "analysis": {
-                  "BRISC FW start -> ANY RISC FW end": {
-                    "analysis": {
-                      "across": "core",
-                      "end": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      },
-                      "start": {
-                        "risc": "ANY",
-                        "timerID": 1
-                      },
-                      "type": "session_first_last"
-                    },
-                    "stats": {
-                      "Average": 453748.0,
-                      "Count": 1,
-                      "First": 453748,
-                      "Max": 453748,
-                      "Median": 453748.0,
-                      "Min": 453748,
-                      "Range": 0,
-                      "Sum": 453748
-                    }
-                  },
                   "NCRISC kernel start -> NCRISC kernel end": {
                     "analysis": {
                       "across": "core",
@@ -62,6 +38,20 @@
                       },
                       "type": "adjacent"
                     },
+                    "series": [
+                      {
+                        "diff": 30,
+                        "durationType": "(2, 3)",
+                        "end": 512868455663534,
+                        "start": 512868455663504
+                      },
+                      {
+                        "diff": 30,
+                        "durationType": "(2, 3)",
+                        "end": 512868456116177,
+                        "start": 512868456116147
+                      }
+                    ],
                     "stats": {
                       "Average": 30.0,
                       "Count": 2,
@@ -74,8 +64,6 @@
                     }
                   }
                 },
-                "durations": [],
-                "launches": [],
                 "timeseries": [
                   "(0, 512868455662463, 'NCRISC')",
                   "(1, 512868455662463, 'NCRISC')",
@@ -92,28 +80,6 @@
           },
           "DEVICE": {
             "analysis": {
-              "BRISC FW start -> ANY RISC FW end": {
-                "analysis": {
-                  "across": "core",
-                  "end": {
-                    "risc": "ANY",
-                    "timerID": 4
-                  },
-                  "start": {
-                    "risc": "ANY",
-                    "timerID": 1
-                  },
-                  "type": "session_first_last"
-                },
-                "stats": {
-                  "Average": 453748.0,
-                  "Count": 1,
-                  "Max": 453748,
-                  "Median": 453748.0,
-                  "Min": 453748,
-                  "Range": 0
-                }
-              },
               "NCRISC kernel start -> NCRISC kernel end": {
                 "analysis": {
                   "across": "core",
@@ -133,31 +99,8 @@
                   "Max": 30,
                   "Median": 30.0,
                   "Min": 30,
-                  "Range": 0
-                }
-              },
-              "T0 -> ANY CORE ANY RISC FW end": {
-                "analysis": {
-                  "across": "device",
-                  "end": {
-                    "core": "ANY",
-                    "risc": "ANY",
-                    "timerID": 4
-                  },
-                  "start": {
-                    "core": "ANY",
-                    "risc": "ANY",
-                    "timerID": 1
-                  },
-                  "type": "session_first_last"
-                },
-                "stats": {
-                  "Average": 453748.0,
-                  "Count": 1,
-                  "Max": 453748,
-                  "Median": 453748.0,
-                  "Min": 453748,
-                  "Range": 0
+                  "Range": 0,
+                  "Sum": 60
                 }
               }
             },
@@ -177,35 +120,6 @@
                 ]
               },
               "TENSIX": {
-                "analysis": {
-                  "T0 -> ANY CORE ANY RISC FW end": {
-                    "analysis": {
-                      "across": "device",
-                      "end": {
-                        "core": "ANY",
-                        "risc": "ANY",
-                        "timerID": 4
-                      },
-                      "start": {
-                        "core": "ANY",
-                        "risc": "ANY",
-                        "timerID": 1
-                      },
-                      "type": "session_first_last"
-                    },
-                    "stats": {
-                      "Average": 453748.0,
-                      "Count": 1,
-                      "First": 453748,
-                      "Max": 453748,
-                      "Median": 453748.0,
-                      "Min": 453748,
-                      "Range": 0,
-                      "Sum": 453748
-                    }
-                  }
-                },
-                "durations": [],
                 "timeseries": [
                   "(0, 512868455662463, 'NCRISC', (0, 0))",
                   "(1, 512868455662463, 'NCRISC', (0, 0))",
@@ -232,6 +146,7 @@
     }
   },
   "setup": {
+    "cycleRange": null,
     "deviceAnalysisData": "device_analysis_data.json",
     "deviceChromeTracing": "device_chrome_tracing.json",
     "devicePerfHTML": "timeline.html",
@@ -243,8 +158,14 @@
       "Average",
       "Max",
       "Median",
-      "Min"
+      "Min",
+      "Sum",
+      "Range"
     ],
+    "ignoreMarkers": [
+      65535
+    ],
+    "intrestingCores": null,
     "outputFolder": "output/device",
     "plotBaseHeight": 200,
     "plotPerCoreHeight": 100,
