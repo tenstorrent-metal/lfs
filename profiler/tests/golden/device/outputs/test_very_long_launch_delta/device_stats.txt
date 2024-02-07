@@ -8,20 +8,20 @@
          Sum [cycles] = 1,038,040,942
        Range [cycles] = 1,038,040,942
 
-                        0                1                2                3                4                5                6                7                8                9               10               11
+                        1                2                3                4                5                6                7                8                9               10               11               12
         ============================================================================================================================================================================================================
-                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 0|| ---                0    1,038,040,942                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
  1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
  2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
  4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
 
 
 
@@ -35,20 +35,20 @@
          Sum [cycles] =    290,845
        Range [cycles] =     25,558
 
-                        0                1                2                3                4                5                6                7                8                9               10               11
+                        1                2                3                4                5                6                7                8                9               10               11               12
         ============================================================================================================================================================================================================
-                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 0|| ---   101,208±12,779           88,429                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
  1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
  2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
  4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
 
 
 
@@ -62,20 +62,20 @@
          Sum [cycles] =    220,107
        Range [cycles] =     43,560
 
-                        0                1                2                3                4                5                6                7                8                9               10               11
+                        1                2                3                4                5                6                7                8                9               10               11               12
         ============================================================================================================================================================================================================
-                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 0|| ---    80,629±21,780           58,849                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
  1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
  2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
  4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
 
 
 
@@ -83,20 +83,20 @@
 =================== ANY RISC FW end -> BRISC FW start ===================
     Duration [cycles] = 1,037,923,447
 
-                        0                1                2                3                4                5                6                7                8                9               10               11
+                        1                2                3                4                5                6                7                8                9               10               11               12
         ============================================================================================================================================================================================================
-                    DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 0|| ---    1,037,923,447                X                X                X                X                X                X                X                X                X                X                X
+     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
  1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
  2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
  4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-     ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+ 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
  7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
  9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
 
 
 
