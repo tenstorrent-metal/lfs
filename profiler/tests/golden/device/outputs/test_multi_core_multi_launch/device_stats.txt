@@ -1,108 +1,40 @@
 
-=================== T0 -> BRISC FW start ===================
+=================== FW_START->FW_END ===================
        Count          =          2
-     Average [cycles] =          5
-         Max [cycles] =         10
-      Median [cycles] =          5
-         Min [cycles] =          0
-         Sum [cycles] =         10
+     Average [cycles] =      3,926
+         Max [cycles] =      3,931
+      Median [cycles] =      3,926
+         Min [cycles] =      3,921
+         Sum [cycles] =      7,852
        Range [cycles] =         10
 
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+
+=================== KERNEL_START->KERNEL_END ===================
+       Count          =          2
+     Average [cycles] =        734
+         Max [cycles] =        739
+      Median [cycles] =        734
+         Min [cycles] =        729
+         Sum [cycles] =      1,468
+       Range [cycles] =         10
 
 
-
-
-=================== BRISC kernel start -> BRISC kernel end ===================
-       Count          =          4
-     Average [cycles] =         77
+=================== BR_KERNEL_START->BR_KERNEL_END ===================
+       Count          =          2
+     Average [cycles] =         80
          Max [cycles] =         85
-      Median [cycles] =         77
-         Min [cycles] =         74
-         Sum [cycles] =        309
-       Range [cycles] =         11
-
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+      Median [cycles] =         80
+         Min [cycles] =         76
+         Sum [cycles] =        161
+       Range [cycles] =          9
 
 
-
-
-=================== NCRISC kernel start -> NCRISC kernel end ===================
-       Count          =          4
-     Average [cycles] =         37
-         Max [cycles] =         42
-      Median [cycles] =         37
-         Min [cycles] =         32
-         Sum [cycles] =        148
-       Range [cycles] =         10
-
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-
-
-
-
-=================== ANY RISC FW end -> BRISC FW start ===================
+=================== NC_KERNEL_START->NC_KERNEL_END ===================
        Count          =          2
-     Average [cycles] =    550,190
-         Max [cycles] =    550,195
-      Median [cycles] =    550,190
-         Min [cycles] =    550,185
-         Sum [cycles] =  1,100,380
+     Average [cycles] =         47
+         Max [cycles] =         52
+      Median [cycles] =         47
+         Min [cycles] =         42
+         Sum [cycles] =         94
        Range [cycles] =         10
-
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-
-
 
