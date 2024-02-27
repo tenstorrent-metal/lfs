@@ -11,173 +11,62 @@
             "riscs": {
               "BRISC": {
                 "timeseries": [
-                  "(0, 512868455659697)",
-                  "(1, 512868455659697)",
-                  "(2, 512868455662814)",
-                  "(3, 512868455662878)",
-                  "(4, 512868455662962)",
-                  "(1, 512868456112340)",
-                  "(2, 512868456115457)",
-                  "(3, 512868456115521)",
-                  "(4, 512868456115605)"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455659697)",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455659697)",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662814)",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662878)",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662962)",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456112340)",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115457)",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115521)",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115605)"
                 ]
               },
               "TENSIX": {
-                "analysis": {
-                  "ANY RISC FW end -> BRISC FW start": {
-                    "analysis": {
-                      "across": "core",
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 1
-                      },
-                      "start": {
-                        "risc": "ANY",
-                        "timerID": 4
-                      },
-                      "type": "adjacent"
-                    },
-                    "series": [
-                      {
-                        "diff": 449378,
-                        "durationType": "(4, 1)",
-                        "end": 512868456112340,
-                        "start": 512868455662962
-                      }
-                    ],
-                    "stats": {
-                      "Average": 449378.0,
-                      "Count": 1,
-                      "First": 449378,
-                      "Max": 449378,
-                      "Median": 449378.0,
-                      "Min": 449378,
-                      "Range": 0,
-                      "Sum": 449378
-                    }
-                  },
-                  "BRISC kernel start -> BRISC kernel end": {
-                    "analysis": {
-                      "across": "core",
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 3
-                      },
-                      "start": {
-                        "risc": "BRISC",
-                        "timerID": 2
-                      },
-                      "type": "adjacent"
-                    },
-                    "series": [
-                      {
-                        "diff": 64,
-                        "durationType": "(2, 3)",
-                        "end": 512868455662878,
-                        "start": 512868455662814
-                      },
-                      {
-                        "diff": 64,
-                        "durationType": "(2, 3)",
-                        "end": 512868456115521,
-                        "start": 512868456115457
-                      }
-                    ],
-                    "stats": {
-                      "Average": 64.0,
-                      "Count": 2,
-                      "First": 64,
-                      "Max": 64,
-                      "Median": 64.0,
-                      "Min": 64,
-                      "Range": 0,
-                      "Sum": 128
-                    }
-                  },
-                  "T0 -> BRISC FW start": {
-                    "analysis": {
-                      "across": "core",
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 1
-                      },
-                      "start": {
-                        "risc": "BRISC",
-                        "timerID": 0
-                      },
-                      "type": "adjacent"
-                    },
-                    "series": [
-                      {
-                        "diff": 0,
-                        "durationType": "(0, 1)",
-                        "end": 512868455659697,
-                        "start": 512868455659697
-                      }
-                    ],
-                    "stats": {
-                      "Average": 0.0,
-                      "Count": 1,
-                      "First": 0,
-                      "Max": 0,
-                      "Median": 0.0,
-                      "Min": 0,
-                      "Range": 0,
-                      "Sum": 0
-                    }
-                  }
-                },
+                "ops": [
+                  [
+                    "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455659697, 'BRISC')",
+                    "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662814, 'BRISC')",
+                    "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662878, 'BRISC')",
+                    "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662962, 'BRISC')"
+                  ],
+                  [
+                    "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456112340, 'BRISC')",
+                    "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115457, 'BRISC')",
+                    "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115521, 'BRISC')",
+                    "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115605, 'BRISC')"
+                  ]
+                ],
                 "timeseries": [
-                  "(0, 512868455659697, 'BRISC')",
-                  "(1, 512868455659697, 'BRISC')",
-                  "(2, 512868455662814, 'BRISC')",
-                  "(3, 512868455662878, 'BRISC')",
-                  "(4, 512868455662962, 'BRISC')",
-                  "(1, 512868456112340, 'BRISC')",
-                  "(2, 512868456115457, 'BRISC')",
-                  "(3, 512868456115521, 'BRISC')",
-                  "(4, 512868456115605, 'BRISC')"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455659697, 'BRISC')",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455659697, 'BRISC')",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662814, 'BRISC')",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662878, 'BRISC')",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662962, 'BRISC')",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456112340, 'BRISC')",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115457, 'BRISC')",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115521, 'BRISC')",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115605, 'BRISC')"
                 ]
               }
             }
           },
           "DEVICE": {
             "analysis": {
-              "ANY RISC FW end -> BRISC FW start": {
+              "BR_KERNEL_START->BR_KERNEL_END": {
                 "analysis": {
-                  "across": "core",
+                  "across": "ops",
                   "end": {
+                    "core": "ANY",
                     "risc": "BRISC",
-                    "timerID": 1
+                    "zoneName": "BRISC-KERNEL"
                   },
                   "start": {
-                    "risc": "ANY",
-                    "timerID": 4
-                  },
-                  "type": "adjacent"
-                },
-                "stats": {
-                  "Average": 449378.0,
-                  "Count": 1,
-                  "Max": 449378,
-                  "Median": 449378.0,
-                  "Min": 449378,
-                  "Range": 0,
-                  "Sum": 449378
-                }
-              },
-              "BRISC kernel start -> BRISC kernel end": {
-                "analysis": {
-                  "across": "core",
-                  "end": {
+                    "core": "ANY",
                     "risc": "BRISC",
-                    "timerID": 3
+                    "zoneName": "BRISC-KERNEL"
                   },
-                  "start": {
-                    "risc": "BRISC",
-                    "timerID": 2
-                  },
-                  "type": "adjacent"
+                  "type": "op_first_last"
                 },
                 "stats": {
                   "Average": 64.0,
@@ -189,55 +78,368 @@
                   "Sum": 128
                 }
               },
-              "T0 -> BRISC FW start": {
+              "FW_START->FW_END": {
                 "analysis": {
-                  "across": "core",
+                  "across": "ops",
                   "end": {
-                    "risc": "BRISC",
-                    "timerID": 1
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-FW",
+                      "NCRISC-FW",
+                      "TRISC-FW",
+                      "ERISC-FW"
+                    ]
                   },
                   "start": {
-                    "risc": "BRISC",
-                    "timerID": 0
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-FW",
+                      "NCRISC-FW",
+                      "TRISC-FW",
+                      "ERISC-FW"
+                    ]
                   },
-                  "type": "adjacent"
+                  "type": "op_first_last"
                 },
                 "stats": {
-                  "Average": 0.0,
-                  "Count": 1,
-                  "Max": 0,
-                  "Median": 0.0,
-                  "Min": 0,
+                  "Average": 3265.0,
+                  "Count": 2,
+                  "Max": 3265,
+                  "Median": 3265.0,
+                  "Min": 3265,
                   "Range": 0,
-                  "Sum": 0
+                  "Sum": 6530
+                }
+              },
+              "KERNEL_START->KERNEL_END": {
+                "analysis": {
+                  "across": "ops",
+                  "end": {
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-KERNEL",
+                      "NCRISC-KERNEL",
+                      "TRISC-KERNEL",
+                      "ERISC-KERNEL"
+                    ]
+                  },
+                  "start": {
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-KERNEL",
+                      "NCRISC-KERNEL",
+                      "TRISC-KERNEL",
+                      "ERISC-KERNEL"
+                    ]
+                  },
+                  "type": "op_first_last"
+                },
+                "stats": {
+                  "Average": 64.0,
+                  "Count": 2,
+                  "Max": 64,
+                  "Median": 64.0,
+                  "Min": 64,
+                  "Range": 0,
+                  "Sum": 128
                 }
               }
             },
             "riscs": {
               "BRISC": {
                 "timeseries": [
-                  "(0, 512868455659697, (0, 0))",
-                  "(1, 512868455659697, (0, 0))",
-                  "(2, 512868455662814, (0, 0))",
-                  "(3, 512868455662878, (0, 0))",
-                  "(4, 512868455662962, (0, 0))",
-                  "(1, 512868456112340, (0, 0))",
-                  "(2, 512868456115457, (0, 0))",
-                  "(3, 512868456115521, (0, 0))",
-                  "(4, 512868456115605, (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455659697, (0, 0))",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455659697, (0, 0))",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662814, (0, 0))",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662878, (0, 0))",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662962, (0, 0))",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456112340, (0, 0))",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115457, (0, 0))",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115521, (0, 0))",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115605, (0, 0))"
                 ]
               },
               "TENSIX": {
+                "ops": [
+                  {
+                    "analysis": {
+                      "BR_KERNEL_START->BR_KERNEL_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "BRISC",
+                            "zoneName": "BRISC-KERNEL"
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "BRISC",
+                            "zoneName": "BRISC-KERNEL"
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 64,
+                            "durationType": "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 512868455662878,
+                            "start": 512868455662814
+                          }
+                        ],
+                        "stats": {
+                          "Average": 64.0,
+                          "Count": 1,
+                          "First": 64,
+                          "Max": 64,
+                          "Median": 64.0,
+                          "Min": 64,
+                          "Range": 0,
+                          "Sum": 64
+                        }
+                      },
+                      "FW_START->FW_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-FW",
+                              "NCRISC-FW",
+                              "TRISC-FW",
+                              "ERISC-FW"
+                            ]
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-FW",
+                              "NCRISC-FW",
+                              "TRISC-FW",
+                              "ERISC-FW"
+                            ]
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 3265,
+                            "durationType": "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 512868455662962,
+                            "start": 512868455659697
+                          }
+                        ],
+                        "stats": {
+                          "Average": 3265.0,
+                          "Count": 1,
+                          "First": 3265,
+                          "Max": 3265,
+                          "Median": 3265.0,
+                          "Min": 3265,
+                          "Range": 0,
+                          "Sum": 3265
+                        }
+                      },
+                      "KERNEL_START->KERNEL_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-KERNEL",
+                              "NCRISC-KERNEL",
+                              "TRISC-KERNEL",
+                              "ERISC-KERNEL"
+                            ]
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-KERNEL",
+                              "NCRISC-KERNEL",
+                              "TRISC-KERNEL",
+                              "ERISC-KERNEL"
+                            ]
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 64,
+                            "durationType": "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 512868455662878,
+                            "start": 512868455662814
+                          }
+                        ],
+                        "stats": {
+                          "Average": 64.0,
+                          "Count": 1,
+                          "First": 64,
+                          "Max": 64,
+                          "Median": 64.0,
+                          "Min": 64,
+                          "Range": 0,
+                          "Sum": 64
+                        }
+                      }
+                    },
+                    "timeseries": [
+                      "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455659697, 'BRISC', (0, 0))",
+                      "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662814, 'BRISC', (0, 0))",
+                      "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662878, 'BRISC', (0, 0))",
+                      "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662962, 'BRISC', (0, 0))"
+                    ]
+                  },
+                  {
+                    "analysis": {
+                      "BR_KERNEL_START->BR_KERNEL_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "BRISC",
+                            "zoneName": "BRISC-KERNEL"
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "BRISC",
+                            "zoneName": "BRISC-KERNEL"
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 64,
+                            "durationType": "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 512868456115521,
+                            "start": 512868456115457
+                          }
+                        ],
+                        "stats": {
+                          "Average": 64.0,
+                          "Count": 1,
+                          "First": 64,
+                          "Max": 64,
+                          "Median": 64.0,
+                          "Min": 64,
+                          "Range": 0,
+                          "Sum": 64
+                        }
+                      },
+                      "FW_START->FW_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-FW",
+                              "NCRISC-FW",
+                              "TRISC-FW",
+                              "ERISC-FW"
+                            ]
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-FW",
+                              "NCRISC-FW",
+                              "TRISC-FW",
+                              "ERISC-FW"
+                            ]
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 3265,
+                            "durationType": "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 512868456115605,
+                            "start": 512868456112340
+                          }
+                        ],
+                        "stats": {
+                          "Average": 3265.0,
+                          "Count": 1,
+                          "First": 3265,
+                          "Max": 3265,
+                          "Median": 3265.0,
+                          "Min": 3265,
+                          "Range": 0,
+                          "Sum": 3265
+                        }
+                      },
+                      "KERNEL_START->KERNEL_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-KERNEL",
+                              "NCRISC-KERNEL",
+                              "TRISC-KERNEL",
+                              "ERISC-KERNEL"
+                            ]
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-KERNEL",
+                              "NCRISC-KERNEL",
+                              "TRISC-KERNEL",
+                              "ERISC-KERNEL"
+                            ]
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 64,
+                            "durationType": "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 512868456115521,
+                            "start": 512868456115457
+                          }
+                        ],
+                        "stats": {
+                          "Average": 64.0,
+                          "Count": 1,
+                          "First": 64,
+                          "Max": 64,
+                          "Median": 64.0,
+                          "Min": 64,
+                          "Range": 0,
+                          "Sum": 64
+                        }
+                      }
+                    },
+                    "timeseries": [
+                      "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456112340, 'BRISC', (0, 0))",
+                      "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115457, 'BRISC', (0, 0))",
+                      "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115521, 'BRISC', (0, 0))",
+                      "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115605, 'BRISC', (0, 0))"
+                    ]
+                  }
+                ],
                 "timeseries": [
-                  "(0, 512868455659697, 'BRISC', (0, 0))",
-                  "(1, 512868455659697, 'BRISC', (0, 0))",
-                  "(2, 512868455662814, 'BRISC', (0, 0))",
-                  "(3, 512868455662878, 'BRISC', (0, 0))",
-                  "(4, 512868455662962, 'BRISC', (0, 0))",
-                  "(1, 512868456112340, 'BRISC', (0, 0))",
-                  "(2, 512868456115457, 'BRISC', (0, 0))",
-                  "(3, 512868456115521, 'BRISC', (0, 0))",
-                  "(4, 512868456115605, 'BRISC', (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455659697, 'BRISC', (0, 0))",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455659697, 'BRISC', (0, 0))",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662814, 'BRISC', (0, 0))",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662878, 'BRISC', (0, 0))",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455662962, 'BRISC', (0, 0))",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456112340, 'BRISC', (0, 0))",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115457, 'BRISC', (0, 0))",
+                  "({'id': 3, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115521, 'BRISC', (0, 0))",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456115605, 'BRISC', (0, 0))"
                 ]
               }
             }
@@ -254,11 +456,8 @@
     }
   },
   "setup": {
-    "cycleRange": null,
+    "detectOps": true,
     "deviceAnalysisData": "device_analysis_data.json",
-    "deviceChromeTracing": "device_chrome_tracing.json",
-    "devicePerfHTML": "timeline.html",
-    "deviceRearranged": "device_rearranged_timestamps.csv",
     "deviceStatsTXT": "device_stats.txt",
     "deviceTarball": "device_perf_results.tgz",
     "displayStats": [
@@ -270,198 +469,154 @@
       "Sum",
       "Range"
     ],
-    "ignoreMarkers": [
-      65535
-    ],
-    "intrestingCores": null,
     "outputFolder": "output/device",
-    "plotBaseHeight": 200,
-    "plotPerCoreHeight": 100,
+    "riscTypes": [
+      "BRISC",
+      "NCRISC",
+      "TRISC",
+      "ERISC"
+    ],
     "riscs": [
       "BRISC",
       "NCRISC",
       "TRISC_0",
       "TRISC_1",
-      "TRISC_2"
+      "TRISC_2",
+      "ERISC"
     ],
-    "riscsData": {
-      "BRISC": {
-        "color": "light:g"
-      },
-      "NCRISC": {
-        "color": "light:r"
-      },
-      "TENSIX": {
-        "color": "light:b"
-      },
-      "TRISC_0": {
-        "color": "light:gray"
-      },
-      "TRISC_1": {
-        "color": "light:gray"
-      },
-      "TRISC_2": {
-        "color": "light:gray"
-      }
-    },
     "timerAnalysis": {
-      "ANY RISC FW end -> BRISC FW start": {
-        "across": "core",
+      "BR_KERNEL_START->BR_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "BRISC",
-          "timerID": 1
+          "zoneName": "BRISC-KERNEL"
         },
         "start": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "type": "adjacent"
-      },
-      "ANY RISC FW start -> ANY RISC FW end": {
-        "across": "core",
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 1
-        },
-        "type": "launch_first_last"
-      },
-      "BRISC FW start -> ANY RISC FW end": {
-        "across": "core",
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 1
-        },
-        "type": "session_first_last"
-      },
-      "BRISC kernel start -> BRISC kernel end": {
-        "across": "core",
-        "end": {
+          "core": "ANY",
           "risc": "BRISC",
-          "timerID": 3
+          "zoneName": "BRISC-KERNEL"
         },
-        "start": {
-          "risc": "BRISC",
-          "timerID": 2
-        },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "NCRISC kernel start -> NCRISC kernel end": {
-        "across": "core",
+      "ER_KERNEL_START->ER_KERNEL_END": {
+        "across": "ops",
         "end": {
-          "risc": "NCRISC",
-          "timerID": 3
+          "core": "ANY",
+          "risc": "ERISC",
+          "zoneName": "ERISC-KERNEL"
         },
         "start": {
-          "risc": "NCRISC",
-          "timerID": 2
+          "core": "ANY",
+          "risc": "ERISC",
+          "zoneName": "ERISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "T0 -> ANY CORE ANY RISC FW end": {
-        "across": "device",
+      "FW_START->FW_END": {
+        "across": "ops",
         "end": {
           "core": "ANY",
           "risc": "ANY",
-          "timerID": 4
+          "zoneName": [
+            "BRISC-FW",
+            "NCRISC-FW",
+            "TRISC-FW",
+            "ERISC-FW"
+          ]
         },
         "start": {
           "core": "ANY",
           "risc": "ANY",
-          "timerID": 1
+          "zoneName": [
+            "BRISC-FW",
+            "NCRISC-FW",
+            "TRISC-FW",
+            "ERISC-FW"
+          ]
         },
-        "type": "session_first_last"
+        "type": "op_first_last"
       },
-      "T0 -> ANY RISC FW end": {
-        "across": "core",
+      "KERNEL_START->KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "ANY",
-          "timerID": 4
+          "zoneName": [
+            "BRISC-KERNEL",
+            "NCRISC-KERNEL",
+            "TRISC-KERNEL",
+            "ERISC-KERNEL"
+          ]
         },
         "start": {
-          "risc": "BRISC",
-          "timerID": 0
+          "core": "ANY",
+          "risc": "ANY",
+          "zoneName": [
+            "BRISC-KERNEL",
+            "NCRISC-KERNEL",
+            "TRISC-KERNEL",
+            "ERISC-KERNEL"
+          ]
         },
-        "type": "session_first_last"
+        "type": "op_first_last"
       },
-      "T0 -> BRISC FW start": {
-        "across": "core",
+      "NC_KERNEL_START->NC_KERNEL_END": {
+        "across": "ops",
         "end": {
-          "risc": "BRISC",
-          "timerID": 1
+          "core": "ANY",
+          "risc": "NCRISC",
+          "zoneName": "NCRISC-KERNEL"
         },
         "start": {
-          "risc": "BRISC",
-          "timerID": 0
+          "core": "ANY",
+          "risc": "NCRISC",
+          "zoneName": "NCRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC0 kernel start -> TRISC0 kernel end": {
-        "across": "core",
+      "T0_KERNEL_START->T0_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_0",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_0",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC1 kernel start -> TRISC1 kernel end": {
-        "across": "core",
+      "T1_KERNEL_START->T1_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_1",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_1",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC2 kernel start -> TRISC2 kernel end": {
-        "across": "core",
+      "T2_KERNEL_START->T2_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_2",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_2",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       }
-    },
-    "timerIDLabels": [
-      [
-        0,
-        "Start"
-      ],
-      [
-        1,
-        "Firmware Start"
-      ],
-      [
-        2,
-        "Kernel start"
-      ],
-      [
-        3,
-        "Kernel End"
-      ],
-      [
-        4,
-        "Firmware End"
-      ]
-    ],
-    "webappPort": 8050
+    }
   }
 }

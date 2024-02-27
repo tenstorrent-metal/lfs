@@ -11,123 +11,60 @@
             "riscs": {
               "NCRISC": {
                 "timeseries": [
-                  "(0, 512868455662463)",
-                  "(1, 512868455662463)",
-                  "(2, 512868455663504)",
-                  "(3, 512868455663534)",
-                  "(4, 512868455663568)",
-                  "(1, 512868456115106)",
-                  "(2, 512868456116147)",
-                  "(3, 512868456116177)",
-                  "(4, 512868456116211)"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455662463)",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662463)",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455663504)",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663534)",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663568)",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115106)",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456116147)",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116177)",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116211)"
                 ]
               },
               "TENSIX": {
-                "analysis": {
-                  "NCRISC kernel start -> NCRISC kernel end": {
-                    "analysis": {
-                      "across": "core",
-                      "end": {
-                        "risc": "NCRISC",
-                        "timerID": 3
-                      },
-                      "start": {
-                        "risc": "NCRISC",
-                        "timerID": 2
-                      },
-                      "type": "adjacent"
-                    },
-                    "series": [
-                      {
-                        "diff": 30,
-                        "durationType": "(2, 3)",
-                        "end": 512868455663534,
-                        "start": 512868455663504
-                      },
-                      {
-                        "diff": 30,
-                        "durationType": "(2, 3)",
-                        "end": 512868456116177,
-                        "start": 512868456116147
-                      }
-                    ],
-                    "stats": {
-                      "Average": 30.0,
-                      "Count": 2,
-                      "First": 30,
-                      "Max": 30,
-                      "Median": 30.0,
-                      "Min": 30,
-                      "Range": 0,
-                      "Sum": 60
-                    }
-                  }
-                },
+                "ops": [],
                 "timeseries": [
-                  "(0, 512868455662463, 'NCRISC')",
-                  "(1, 512868455662463, 'NCRISC')",
-                  "(2, 512868455663504, 'NCRISC')",
-                  "(3, 512868455663534, 'NCRISC')",
-                  "(4, 512868455663568, 'NCRISC')",
-                  "(1, 512868456115106, 'NCRISC')",
-                  "(2, 512868456116147, 'NCRISC')",
-                  "(3, 512868456116177, 'NCRISC')",
-                  "(4, 512868456116211, 'NCRISC')"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455662463, 'NCRISC')",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662463, 'NCRISC')",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455663504, 'NCRISC')",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663534, 'NCRISC')",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663568, 'NCRISC')",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115106, 'NCRISC')",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456116147, 'NCRISC')",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116177, 'NCRISC')",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116211, 'NCRISC')"
                 ]
               }
             }
           },
           "DEVICE": {
-            "analysis": {
-              "NCRISC kernel start -> NCRISC kernel end": {
-                "analysis": {
-                  "across": "core",
-                  "end": {
-                    "risc": "NCRISC",
-                    "timerID": 3
-                  },
-                  "start": {
-                    "risc": "NCRISC",
-                    "timerID": 2
-                  },
-                  "type": "adjacent"
-                },
-                "stats": {
-                  "Average": 30.0,
-                  "Count": 2,
-                  "Max": 30,
-                  "Median": 30.0,
-                  "Min": 30,
-                  "Range": 0,
-                  "Sum": 60
-                }
-              }
-            },
             "riscs": {
               "NCRISC": {
                 "timeseries": [
-                  "(0, 512868455662463, (0, 0))",
-                  "(1, 512868455662463, (0, 0))",
-                  "(2, 512868455663504, (0, 0))",
-                  "(3, 512868455663534, (0, 0))",
-                  "(4, 512868455663568, (0, 0))",
-                  "(1, 512868456115106, (0, 0))",
-                  "(2, 512868456116147, (0, 0))",
-                  "(3, 512868456116177, (0, 0))",
-                  "(4, 512868456116211, (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455662463, (0, 0))",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662463, (0, 0))",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455663504, (0, 0))",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663534, (0, 0))",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663568, (0, 0))",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115106, (0, 0))",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456116147, (0, 0))",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116177, (0, 0))",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116211, (0, 0))"
                 ]
               },
               "TENSIX": {
+                "ops": [],
                 "timeseries": [
-                  "(0, 512868455662463, 'NCRISC', (0, 0))",
-                  "(1, 512868455662463, 'NCRISC', (0, 0))",
-                  "(2, 512868455663504, 'NCRISC', (0, 0))",
-                  "(3, 512868455663534, 'NCRISC', (0, 0))",
-                  "(4, 512868455663568, 'NCRISC', (0, 0))",
-                  "(1, 512868456115106, 'NCRISC', (0, 0))",
-                  "(2, 512868456116147, 'NCRISC', (0, 0))",
-                  "(3, 512868456116177, 'NCRISC', (0, 0))",
-                  "(4, 512868456116211, 'NCRISC', (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 512868455662463, 'NCRISC', (0, 0))",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455662463, 'NCRISC', (0, 0))",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868455663504, 'NCRISC', (0, 0))",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663534, 'NCRISC', (0, 0))",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868455663568, 'NCRISC', (0, 0))",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456115106, 'NCRISC', (0, 0))",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 512868456116147, 'NCRISC', (0, 0))",
+                  "({'id': 3, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116177, 'NCRISC', (0, 0))",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 512868456116211, 'NCRISC', (0, 0))"
                 ]
               }
             }
@@ -144,11 +81,8 @@
     }
   },
   "setup": {
-    "cycleRange": null,
+    "detectOps": true,
     "deviceAnalysisData": "device_analysis_data.json",
-    "deviceChromeTracing": "device_chrome_tracing.json",
-    "devicePerfHTML": "timeline.html",
-    "deviceRearranged": "device_rearranged_timestamps.csv",
     "deviceStatsTXT": "device_stats.txt",
     "deviceTarball": "device_perf_results.tgz",
     "displayStats": [
@@ -160,198 +94,154 @@
       "Sum",
       "Range"
     ],
-    "ignoreMarkers": [
-      65535
-    ],
-    "intrestingCores": null,
     "outputFolder": "output/device",
-    "plotBaseHeight": 200,
-    "plotPerCoreHeight": 100,
+    "riscTypes": [
+      "BRISC",
+      "NCRISC",
+      "TRISC",
+      "ERISC"
+    ],
     "riscs": [
       "BRISC",
       "NCRISC",
       "TRISC_0",
       "TRISC_1",
-      "TRISC_2"
+      "TRISC_2",
+      "ERISC"
     ],
-    "riscsData": {
-      "BRISC": {
-        "color": "light:g"
-      },
-      "NCRISC": {
-        "color": "light:r"
-      },
-      "TENSIX": {
-        "color": "light:b"
-      },
-      "TRISC_0": {
-        "color": "light:gray"
-      },
-      "TRISC_1": {
-        "color": "light:gray"
-      },
-      "TRISC_2": {
-        "color": "light:gray"
-      }
-    },
     "timerAnalysis": {
-      "ANY RISC FW end -> BRISC FW start": {
-        "across": "core",
+      "BR_KERNEL_START->BR_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "BRISC",
-          "timerID": 1
+          "zoneName": "BRISC-KERNEL"
         },
         "start": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "type": "adjacent"
-      },
-      "ANY RISC FW start -> ANY RISC FW end": {
-        "across": "core",
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 1
-        },
-        "type": "launch_first_last"
-      },
-      "BRISC FW start -> ANY RISC FW end": {
-        "across": "core",
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 1
-        },
-        "type": "session_first_last"
-      },
-      "BRISC kernel start -> BRISC kernel end": {
-        "across": "core",
-        "end": {
+          "core": "ANY",
           "risc": "BRISC",
-          "timerID": 3
+          "zoneName": "BRISC-KERNEL"
         },
-        "start": {
-          "risc": "BRISC",
-          "timerID": 2
-        },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "NCRISC kernel start -> NCRISC kernel end": {
-        "across": "core",
+      "ER_KERNEL_START->ER_KERNEL_END": {
+        "across": "ops",
         "end": {
-          "risc": "NCRISC",
-          "timerID": 3
+          "core": "ANY",
+          "risc": "ERISC",
+          "zoneName": "ERISC-KERNEL"
         },
         "start": {
-          "risc": "NCRISC",
-          "timerID": 2
+          "core": "ANY",
+          "risc": "ERISC",
+          "zoneName": "ERISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "T0 -> ANY CORE ANY RISC FW end": {
-        "across": "device",
+      "FW_START->FW_END": {
+        "across": "ops",
         "end": {
           "core": "ANY",
           "risc": "ANY",
-          "timerID": 4
+          "zoneName": [
+            "BRISC-FW",
+            "NCRISC-FW",
+            "TRISC-FW",
+            "ERISC-FW"
+          ]
         },
         "start": {
           "core": "ANY",
           "risc": "ANY",
-          "timerID": 1
+          "zoneName": [
+            "BRISC-FW",
+            "NCRISC-FW",
+            "TRISC-FW",
+            "ERISC-FW"
+          ]
         },
-        "type": "session_first_last"
+        "type": "op_first_last"
       },
-      "T0 -> ANY RISC FW end": {
-        "across": "core",
+      "KERNEL_START->KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "ANY",
-          "timerID": 4
+          "zoneName": [
+            "BRISC-KERNEL",
+            "NCRISC-KERNEL",
+            "TRISC-KERNEL",
+            "ERISC-KERNEL"
+          ]
         },
         "start": {
-          "risc": "BRISC",
-          "timerID": 0
+          "core": "ANY",
+          "risc": "ANY",
+          "zoneName": [
+            "BRISC-KERNEL",
+            "NCRISC-KERNEL",
+            "TRISC-KERNEL",
+            "ERISC-KERNEL"
+          ]
         },
-        "type": "session_first_last"
+        "type": "op_first_last"
       },
-      "T0 -> BRISC FW start": {
-        "across": "core",
+      "NC_KERNEL_START->NC_KERNEL_END": {
+        "across": "ops",
         "end": {
-          "risc": "BRISC",
-          "timerID": 1
+          "core": "ANY",
+          "risc": "NCRISC",
+          "zoneName": "NCRISC-KERNEL"
         },
         "start": {
-          "risc": "BRISC",
-          "timerID": 0
+          "core": "ANY",
+          "risc": "NCRISC",
+          "zoneName": "NCRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC0 kernel start -> TRISC0 kernel end": {
-        "across": "core",
+      "T0_KERNEL_START->T0_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_0",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_0",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC1 kernel start -> TRISC1 kernel end": {
-        "across": "core",
+      "T1_KERNEL_START->T1_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_1",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_1",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC2 kernel start -> TRISC2 kernel end": {
-        "across": "core",
+      "T2_KERNEL_START->T2_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_2",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_2",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       }
-    },
-    "timerIDLabels": [
-      [
-        0,
-        "Start"
-      ],
-      [
-        1,
-        "Firmware Start"
-      ],
-      [
-        2,
-        "Kernel start"
-      ],
-      [
-        3,
-        "Kernel End"
-      ],
-      [
-        4,
-        "Firmware End"
-      ]
-    ],
-    "webappPort": 8050
+    }
   }
 }

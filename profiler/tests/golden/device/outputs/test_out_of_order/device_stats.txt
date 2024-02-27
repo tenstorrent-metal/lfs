@@ -1,26 +1,25 @@
 
-=================== T0 -> BRISC FW start ===================
-    Duration [cycles] =          0
-
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
+=================== FW_START->FW_END ===================
+       Count          =          2
+     Average [cycles] =      3,871
+         Max [cycles] =      3,871
+      Median [cycles] =      3,871
+         Min [cycles] =      3,871
+         Sum [cycles] =      7,742
+       Range [cycles] =          0
 
 
+=================== KERNEL_START->KERNEL_END ===================
+       Count          =          2
+     Average [cycles] =        720
+         Max [cycles] =        720
+      Median [cycles] =        720
+         Min [cycles] =        720
+         Sum [cycles] =      1,440
+       Range [cycles] =          0
 
 
-=================== BRISC kernel start -> BRISC kernel end ===================
+=================== BR_KERNEL_START->BR_KERNEL_END ===================
        Count          =          2
      Average [cycles] =         64
          Max [cycles] =         64
@@ -29,25 +28,8 @@
          Sum [cycles] =        128
        Range [cycles] =          0
 
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
 
-
-
-
-=================== NCRISC kernel start -> NCRISC kernel end ===================
+=================== NC_KERNEL_START->NC_KERNEL_END ===================
        Count          =          2
      Average [cycles] =         30
          Max [cycles] =         30
@@ -55,42 +37,4 @@
          Min [cycles] =         30
          Sum [cycles] =         60
        Range [cycles] =          0
-
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-
-
-
-
-=================== ANY RISC FW end -> BRISC FW start ===================
-    Duration [cycles] =    458,069
-
-                        1                2                3                4                5                6                7                8                9               10               11               12
-        ============================================================================================================================================================================================================
-     ---            DRAM0              ---              ---            DRAM1              ---              ---            DRAM2              ---              ---            DRAM3              ---              ---
- 1|| ARC                X                X                X                X                X                X                X                X                X                X                X                X
- 2|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 3|| PCI                X                X                X                X                X                X                X                X                X                X                X                X
- 4|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 5|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 6|| ---            DRAM4              ---              ---            DRAM5              ---              ---            DRAM6              ---              ---            DRAM7              ---              ---
- 7|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 8|| ---                X                X                X                X                X                X                X                X                X                X                X                X
- 9|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-10|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-11|| ---                X                X                X                X                X                X                X                X                X                X                X                X
-
-
 

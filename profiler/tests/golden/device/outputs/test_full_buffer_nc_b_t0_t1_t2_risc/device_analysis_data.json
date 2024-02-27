@@ -11,453 +11,729 @@
             "riscs": {
               "BRISC": {
                 "timeseries": [
-                  "(0, 320219178244005)",
-                  "(1, 320219178244005)",
-                  "(2, 320219178247355)",
-                  "(7, 320219186200509)",
-                  "(7, 320219186200591)",
-                  "(7, 320219186200690)",
-                  "(7, 320219186200761)",
-                  "(7, 320219186200851)",
-                  "(7, 320219186200922)",
-                  "(7, 320219186201012)",
-                  "(7, 320219186201083)",
-                  "(7, 320219186203125)",
-                  "(7, 320219186203196)",
-                  "(7, 320219186203288)",
-                  "(7, 320219186203359)",
-                  "(7, 320219186203449)",
-                  "(4, 320219186284016)"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005)",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178244005)",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247355)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200509)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200591)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200690)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200761)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200851)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200922)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201012)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201083)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203125)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203196)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203288)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203359)",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203449)",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186284016)"
                 ]
               },
               "NCRISC": {
                 "timeseries": [
-                  "(0, 320219178244005)",
-                  "(1, 320219178247411)",
-                  "(2, 320219178248751)",
-                  "(5, 320219178248970)",
-                  "(5, 320219178249112)",
-                  "(5, 320219178249279)",
-                  "(5, 320219178249418)",
-                  "(5, 320219178249576)",
-                  "(5, 320219178249714)",
-                  "(5, 320219178249874)",
-                  "(5, 320219178250011)",
-                  "(5, 320219178250169)",
-                  "(5, 320219178250305)",
-                  "(5, 320219178250464)",
-                  "(5, 320219178250601)",
-                  "(5, 320219178250759)",
-                  "(4, 320219186122486)"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005)",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247411)",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248751)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248970)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249112)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249279)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249418)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249576)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249714)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249874)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250011)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250169)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250305)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250464)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250601)",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250759)",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186122486)"
                 ]
               },
               "TENSIX": {
-                "analysis": {
-                  "T0 -> BRISC FW start": {
-                    "analysis": {
-                      "across": "core",
-                      "end": {
-                        "risc": "BRISC",
-                        "timerID": 1
-                      },
-                      "start": {
-                        "risc": "BRISC",
-                        "timerID": 0
-                      },
-                      "type": "adjacent"
-                    },
-                    "series": [
-                      {
-                        "diff": 0,
-                        "durationType": "(0, 1)",
-                        "end": 320219178244005,
-                        "start": 320219178244005
-                      }
-                    ],
-                    "stats": {
-                      "Average": 0.0,
-                      "Count": 1,
-                      "First": 0,
-                      "Max": 0,
-                      "Median": 0.0,
-                      "Min": 0,
-                      "Range": 0,
-                      "Sum": 0
-                    }
-                  }
-                },
+                "ops": [
+                  [
+                    "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178244005, 'BRISC')",
+                    "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_0')",
+                    "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_1')",
+                    "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_2')",
+                    "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247355, 'BRISC')",
+                    "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247411, 'NCRISC')",
+                    "({'id': 1, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247587, 'TRISC_1')",
+                    "({'id': 1, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247759, 'TRISC_0')",
+                    "({'id': 1, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247913, 'TRISC_2')",
+                    "({'id': 2, 'zoneName': 'TRISC_1-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248122, 'TRISC_1')",
+                    "({'id': 2, 'zoneName': 'TRISC_0-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248287, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248349, 'TRISC_1')",
+                    "({'id': 2, 'zoneName': 'TRISC_2-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248519, 'TRISC_2')",
+                    "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248751, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248970, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249112, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249279, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249418, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249576, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249714, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249874, 'NCRISC')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249955, 'TRISC_2')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250011, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250169, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250305, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250464, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250601, 'NCRISC')",
+                    "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250759, 'NCRISC')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178257796, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275220, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275650, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178276206, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293041, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293474, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178294024, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178310866, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311298, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311841, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178328792, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329135, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329714, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178349670, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350100, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350656, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178370574, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371014, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371575, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391474, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391911, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178392469, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412458, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412810, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178413385, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433322, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433760, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178434317, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454262, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454699, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178455247, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475156, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475595, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178476161, 'TRISC_2')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496173, 'TRISC_0')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496532, 'TRISC_1')",
+                    "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178497100, 'TRISC_2')",
+                    "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186122486, 'NCRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200509, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200591, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200690, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200761, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200851, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200922, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201012, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201083, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203125, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203196, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203288, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203359, 'BRISC')",
+                    "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203449, 'BRISC')",
+                    "({'id': 4, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280839, 'TRISC_0')",
+                    "({'id': 4, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280895, 'TRISC_1')",
+                    "({'id': 4, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186281445, 'TRISC_2')",
+                    "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186284016, 'BRISC')"
+                  ]
+                ],
                 "timeseries": [
-                  "(0, 320219178244005, 'NCRISC')",
-                  "(0, 320219178244005, 'BRISC')",
-                  "(1, 320219178244005, 'BRISC')",
-                  "(0, 320219178244005, 'TRISC_0')",
-                  "(0, 320219178244005, 'TRISC_1')",
-                  "(0, 320219178244005, 'TRISC_2')",
-                  "(2, 320219178247355, 'BRISC')",
-                  "(1, 320219178247411, 'NCRISC')",
-                  "(1, 320219178247587, 'TRISC_1')",
-                  "(1, 320219178247759, 'TRISC_0')",
-                  "(1, 320219178247913, 'TRISC_2')",
-                  "(2, 320219178248122, 'TRISC_1')",
-                  "(2, 320219178248287, 'TRISC_0')",
-                  "(6, 320219178248349, 'TRISC_1')",
-                  "(2, 320219178248519, 'TRISC_2')",
-                  "(2, 320219178248751, 'NCRISC')",
-                  "(5, 320219178248970, 'NCRISC')",
-                  "(5, 320219178249112, 'NCRISC')",
-                  "(5, 320219178249279, 'NCRISC')",
-                  "(5, 320219178249418, 'NCRISC')",
-                  "(5, 320219178249576, 'NCRISC')",
-                  "(5, 320219178249714, 'NCRISC')",
-                  "(5, 320219178249874, 'NCRISC')",
-                  "(6, 320219178249955, 'TRISC_2')",
-                  "(5, 320219178250011, 'NCRISC')",
-                  "(5, 320219178250169, 'NCRISC')",
-                  "(5, 320219178250305, 'NCRISC')",
-                  "(5, 320219178250464, 'NCRISC')",
-                  "(5, 320219178250601, 'NCRISC')",
-                  "(5, 320219178250759, 'NCRISC')",
-                  "(6, 320219178257796, 'TRISC_0')",
-                  "(6, 320219178275220, 'TRISC_0')",
-                  "(6, 320219178275650, 'TRISC_1')",
-                  "(6, 320219178276206, 'TRISC_2')",
-                  "(6, 320219178293041, 'TRISC_0')",
-                  "(6, 320219178293474, 'TRISC_1')",
-                  "(6, 320219178294024, 'TRISC_2')",
-                  "(6, 320219178310866, 'TRISC_0')",
-                  "(6, 320219178311298, 'TRISC_1')",
-                  "(6, 320219178311841, 'TRISC_2')",
-                  "(6, 320219178328792, 'TRISC_0')",
-                  "(6, 320219178329135, 'TRISC_1')",
-                  "(6, 320219178329714, 'TRISC_2')",
-                  "(6, 320219178349670, 'TRISC_0')",
-                  "(6, 320219178350100, 'TRISC_1')",
-                  "(6, 320219178350656, 'TRISC_2')",
-                  "(6, 320219178370574, 'TRISC_0')",
-                  "(6, 320219178371014, 'TRISC_1')",
-                  "(6, 320219178371575, 'TRISC_2')",
-                  "(6, 320219178391474, 'TRISC_0')",
-                  "(6, 320219178391911, 'TRISC_1')",
-                  "(6, 320219178392469, 'TRISC_2')",
-                  "(6, 320219178412458, 'TRISC_0')",
-                  "(6, 320219178412810, 'TRISC_1')",
-                  "(6, 320219178413385, 'TRISC_2')",
-                  "(6, 320219178433322, 'TRISC_0')",
-                  "(6, 320219178433760, 'TRISC_1')",
-                  "(6, 320219178434317, 'TRISC_2')",
-                  "(6, 320219178454262, 'TRISC_0')",
-                  "(6, 320219178454699, 'TRISC_1')",
-                  "(6, 320219178455247, 'TRISC_2')",
-                  "(6, 320219178475156, 'TRISC_0')",
-                  "(6, 320219178475595, 'TRISC_1')",
-                  "(6, 320219178476161, 'TRISC_2')",
-                  "(6, 320219178496173, 'TRISC_0')",
-                  "(6, 320219178496532, 'TRISC_1')",
-                  "(6, 320219178497100, 'TRISC_2')",
-                  "(4, 320219186122486, 'NCRISC')",
-                  "(7, 320219186200509, 'BRISC')",
-                  "(7, 320219186200591, 'BRISC')",
-                  "(7, 320219186200690, 'BRISC')",
-                  "(7, 320219186200761, 'BRISC')",
-                  "(7, 320219186200851, 'BRISC')",
-                  "(7, 320219186200922, 'BRISC')",
-                  "(7, 320219186201012, 'BRISC')",
-                  "(7, 320219186201083, 'BRISC')",
-                  "(7, 320219186203125, 'BRISC')",
-                  "(7, 320219186203196, 'BRISC')",
-                  "(7, 320219186203288, 'BRISC')",
-                  "(7, 320219186203359, 'BRISC')",
-                  "(7, 320219186203449, 'BRISC')",
-                  "(4, 320219186280839, 'TRISC_0')",
-                  "(4, 320219186280895, 'TRISC_1')",
-                  "(4, 320219186281445, 'TRISC_2')",
-                  "(4, 320219186284016, 'BRISC')"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'NCRISC')",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'BRISC')",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178244005, 'BRISC')",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_0')",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_1')",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_2')",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247355, 'BRISC')",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247411, 'NCRISC')",
+                  "({'id': 1, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247587, 'TRISC_1')",
+                  "({'id': 1, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247759, 'TRISC_0')",
+                  "({'id': 1, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247913, 'TRISC_2')",
+                  "({'id': 2, 'zoneName': 'TRISC_1-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248122, 'TRISC_1')",
+                  "({'id': 2, 'zoneName': 'TRISC_0-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248287, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248349, 'TRISC_1')",
+                  "({'id': 2, 'zoneName': 'TRISC_2-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248519, 'TRISC_2')",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248751, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248970, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249112, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249279, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249418, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249576, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249714, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249874, 'NCRISC')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249955, 'TRISC_2')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250011, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250169, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250305, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250464, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250601, 'NCRISC')",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250759, 'NCRISC')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178257796, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275220, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275650, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178276206, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293041, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293474, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178294024, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178310866, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311298, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311841, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178328792, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329135, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329714, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178349670, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350100, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350656, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178370574, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371014, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371575, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391474, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391911, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178392469, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412458, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412810, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178413385, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433322, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433760, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178434317, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454262, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454699, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178455247, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475156, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475595, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178476161, 'TRISC_2')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496173, 'TRISC_0')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496532, 'TRISC_1')",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178497100, 'TRISC_2')",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186122486, 'NCRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200509, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200591, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200690, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200761, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200851, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200922, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201012, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201083, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203125, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203196, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203288, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203359, 'BRISC')",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203449, 'BRISC')",
+                  "({'id': 4, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280839, 'TRISC_0')",
+                  "({'id': 4, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280895, 'TRISC_1')",
+                  "({'id': 4, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186281445, 'TRISC_2')",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186284016, 'BRISC')"
                 ]
               },
               "TRISC_0": {
                 "timeseries": [
-                  "(0, 320219178244005)",
-                  "(1, 320219178247759)",
-                  "(2, 320219178248287)",
-                  "(6, 320219178257796)",
-                  "(6, 320219178275220)",
-                  "(6, 320219178293041)",
-                  "(6, 320219178310866)",
-                  "(6, 320219178328792)",
-                  "(6, 320219178349670)",
-                  "(6, 320219178370574)",
-                  "(6, 320219178391474)",
-                  "(6, 320219178412458)",
-                  "(6, 320219178433322)",
-                  "(6, 320219178454262)",
-                  "(6, 320219178475156)",
-                  "(6, 320219178496173)",
-                  "(4, 320219186280839)"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005)",
+                  "({'id': 1, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247759)",
+                  "({'id': 2, 'zoneName': 'TRISC_0-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248287)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178257796)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275220)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293041)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178310866)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178328792)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178349670)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178370574)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391474)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412458)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433322)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454262)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475156)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496173)",
+                  "({'id': 4, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280839)"
                 ]
               },
               "TRISC_1": {
                 "timeseries": [
-                  "(0, 320219178244005)",
-                  "(1, 320219178247587)",
-                  "(2, 320219178248122)",
-                  "(6, 320219178248349)",
-                  "(6, 320219178275650)",
-                  "(6, 320219178293474)",
-                  "(6, 320219178311298)",
-                  "(6, 320219178329135)",
-                  "(6, 320219178350100)",
-                  "(6, 320219178371014)",
-                  "(6, 320219178391911)",
-                  "(6, 320219178412810)",
-                  "(6, 320219178433760)",
-                  "(6, 320219178454699)",
-                  "(6, 320219178475595)",
-                  "(6, 320219178496532)",
-                  "(4, 320219186280895)"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005)",
+                  "({'id': 1, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247587)",
+                  "({'id': 2, 'zoneName': 'TRISC_1-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248122)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248349)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275650)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293474)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311298)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329135)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350100)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371014)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391911)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412810)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433760)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454699)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475595)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496532)",
+                  "({'id': 4, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280895)"
                 ]
               },
               "TRISC_2": {
                 "timeseries": [
-                  "(0, 320219178244005)",
-                  "(1, 320219178247913)",
-                  "(2, 320219178248519)",
-                  "(6, 320219178249955)",
-                  "(6, 320219178276206)",
-                  "(6, 320219178294024)",
-                  "(6, 320219178311841)",
-                  "(6, 320219178329714)",
-                  "(6, 320219178350656)",
-                  "(6, 320219178371575)",
-                  "(6, 320219178392469)",
-                  "(6, 320219178413385)",
-                  "(6, 320219178434317)",
-                  "(6, 320219178455247)",
-                  "(6, 320219178476161)",
-                  "(6, 320219178497100)",
-                  "(4, 320219186281445)"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005)",
+                  "({'id': 1, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247913)",
+                  "({'id': 2, 'zoneName': 'TRISC_2-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248519)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249955)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178276206)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178294024)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311841)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329714)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350656)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371575)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178392469)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178413385)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178434317)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178455247)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178476161)",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178497100)",
+                  "({'id': 4, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186281445)"
                 ]
               }
             }
           },
           "DEVICE": {
             "analysis": {
-              "T0 -> BRISC FW start": {
+              "FW_START->FW_END": {
                 "analysis": {
-                  "across": "core",
+                  "across": "ops",
                   "end": {
-                    "risc": "BRISC",
-                    "timerID": 1
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-FW",
+                      "NCRISC-FW",
+                      "TRISC-FW",
+                      "ERISC-FW"
+                    ]
                   },
                   "start": {
-                    "risc": "BRISC",
-                    "timerID": 0
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-FW",
+                      "NCRISC-FW",
+                      "TRISC-FW",
+                      "ERISC-FW"
+                    ]
                   },
-                  "type": "adjacent"
+                  "type": "op_first_last"
                 },
                 "stats": {
-                  "Average": 0.0,
+                  "Average": 8040011.0,
                   "Count": 1,
-                  "Max": 0,
-                  "Median": 0.0,
-                  "Min": 0,
+                  "Max": 8040011,
+                  "Median": 8040011.0,
+                  "Min": 8040011,
                   "Range": 0,
-                  "Sum": 0
+                  "Sum": 8040011
+                }
+              },
+              "KERNEL_START->KERNEL_END": {
+                "analysis": {
+                  "across": "ops",
+                  "end": {
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-KERNEL",
+                      "NCRISC-KERNEL",
+                      "TRISC-KERNEL",
+                      "ERISC-KERNEL"
+                    ]
+                  },
+                  "start": {
+                    "core": "ANY",
+                    "risc": "ANY",
+                    "zoneName": [
+                      "BRISC-KERNEL",
+                      "NCRISC-KERNEL",
+                      "TRISC-KERNEL",
+                      "ERISC-KERNEL"
+                    ]
+                  },
+                  "type": "op_first_last"
+                },
+                "stats": {
+                  "Average": 1396.0,
+                  "Count": 1,
+                  "Max": 1396,
+                  "Median": 1396.0,
+                  "Min": 1396,
+                  "Range": 0,
+                  "Sum": 1396
                 }
               }
             },
             "riscs": {
               "BRISC": {
                 "timeseries": [
-                  "(0, 320219178244005, (0, 0))",
-                  "(1, 320219178244005, (0, 0))",
-                  "(2, 320219178247355, (0, 0))",
-                  "(7, 320219186200509, (0, 0))",
-                  "(7, 320219186200591, (0, 0))",
-                  "(7, 320219186200690, (0, 0))",
-                  "(7, 320219186200761, (0, 0))",
-                  "(7, 320219186200851, (0, 0))",
-                  "(7, 320219186200922, (0, 0))",
-                  "(7, 320219186201012, (0, 0))",
-                  "(7, 320219186201083, (0, 0))",
-                  "(7, 320219186203125, (0, 0))",
-                  "(7, 320219186203196, (0, 0))",
-                  "(7, 320219186203288, (0, 0))",
-                  "(7, 320219186203359, (0, 0))",
-                  "(7, 320219186203449, (0, 0))",
-                  "(4, 320219186284016, (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, (0, 0))",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178244005, (0, 0))",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247355, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200509, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200591, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200690, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200761, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200851, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200922, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201012, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201083, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203125, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203196, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203288, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203359, (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203449, (0, 0))",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186284016, (0, 0))"
                 ]
               },
               "NCRISC": {
                 "timeseries": [
-                  "(0, 320219178244005, (0, 0))",
-                  "(1, 320219178247411, (0, 0))",
-                  "(2, 320219178248751, (0, 0))",
-                  "(5, 320219178248970, (0, 0))",
-                  "(5, 320219178249112, (0, 0))",
-                  "(5, 320219178249279, (0, 0))",
-                  "(5, 320219178249418, (0, 0))",
-                  "(5, 320219178249576, (0, 0))",
-                  "(5, 320219178249714, (0, 0))",
-                  "(5, 320219178249874, (0, 0))",
-                  "(5, 320219178250011, (0, 0))",
-                  "(5, 320219178250169, (0, 0))",
-                  "(5, 320219178250305, (0, 0))",
-                  "(5, 320219178250464, (0, 0))",
-                  "(5, 320219178250601, (0, 0))",
-                  "(5, 320219178250759, (0, 0))",
-                  "(4, 320219186122486, (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, (0, 0))",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247411, (0, 0))",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248751, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248970, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249112, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249279, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249418, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249576, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249714, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249874, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250011, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250169, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250305, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250464, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250601, (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250759, (0, 0))",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186122486, (0, 0))"
                 ]
               },
               "TENSIX": {
+                "ops": [
+                  {
+                    "analysis": {
+                      "FW_START->FW_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-FW",
+                              "NCRISC-FW",
+                              "TRISC-FW",
+                              "ERISC-FW"
+                            ]
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-FW",
+                              "NCRISC-FW",
+                              "TRISC-FW",
+                              "ERISC-FW"
+                            ]
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 8040011,
+                            "durationType": "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 320219186284016,
+                            "start": 320219178244005
+                          }
+                        ],
+                        "stats": {
+                          "Average": 8040011.0,
+                          "Count": 1,
+                          "First": 8040011,
+                          "Max": 8040011,
+                          "Median": 8040011.0,
+                          "Min": 8040011,
+                          "Range": 0,
+                          "Sum": 8040011
+                        }
+                      },
+                      "KERNEL_START->KERNEL_END": {
+                        "analysis": {
+                          "across": "ops",
+                          "end": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-KERNEL",
+                              "NCRISC-KERNEL",
+                              "TRISC-KERNEL",
+                              "ERISC-KERNEL"
+                            ]
+                          },
+                          "start": {
+                            "core": "ANY",
+                            "risc": "ANY",
+                            "zoneName": [
+                              "BRISC-KERNEL",
+                              "NCRISC-KERNEL",
+                              "TRISC-KERNEL",
+                              "ERISC-KERNEL"
+                            ]
+                          },
+                          "type": "op_first_last"
+                        },
+                        "series": [
+                          {
+                            "diff": 1396,
+                            "durationType": "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, {'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''})",
+                            "end": 320219178248751,
+                            "start": 320219178247355
+                          }
+                        ],
+                        "stats": {
+                          "Average": 1396.0,
+                          "Count": 1,
+                          "First": 1396,
+                          "Max": 1396,
+                          "Median": 1396.0,
+                          "Min": 1396,
+                          "Range": 0,
+                          "Sum": 1396
+                        }
+                      }
+                    },
+                    "timeseries": [
+                      "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178244005, 'BRISC', (0, 0))",
+                      "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247355, 'BRISC', (0, 0))",
+                      "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247411, 'NCRISC', (0, 0))",
+                      "({'id': 1, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247587, 'TRISC_1', (0, 0))",
+                      "({'id': 1, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247759, 'TRISC_0', (0, 0))",
+                      "({'id': 1, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247913, 'TRISC_2', (0, 0))",
+                      "({'id': 2, 'zoneName': 'TRISC_1-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248122, 'TRISC_1', (0, 0))",
+                      "({'id': 2, 'zoneName': 'TRISC_0-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248287, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248349, 'TRISC_1', (0, 0))",
+                      "({'id': 2, 'zoneName': 'TRISC_2-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248519, 'TRISC_2', (0, 0))",
+                      "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248751, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248970, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249112, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249279, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249418, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249576, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249714, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249874, 'NCRISC', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249955, 'TRISC_2', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250011, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250169, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250305, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250464, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250601, 'NCRISC', (0, 0))",
+                      "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250759, 'NCRISC', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178257796, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275220, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275650, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178276206, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293041, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293474, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178294024, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178310866, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311298, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311841, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178328792, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329135, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329714, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178349670, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350100, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350656, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178370574, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371014, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371575, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391474, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391911, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178392469, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412458, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412810, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178413385, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433322, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433760, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178434317, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454262, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454699, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178455247, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475156, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475595, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178476161, 'TRISC_2', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496173, 'TRISC_0', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496532, 'TRISC_1', (0, 0))",
+                      "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178497100, 'TRISC_2', (0, 0))",
+                      "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186122486, 'NCRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200509, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200591, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200690, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200761, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200851, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200922, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201012, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201083, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203125, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203196, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203288, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203359, 'BRISC', (0, 0))",
+                      "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203449, 'BRISC', (0, 0))",
+                      "({'id': 4, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280839, 'TRISC_0', (0, 0))",
+                      "({'id': 4, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280895, 'TRISC_1', (0, 0))",
+                      "({'id': 4, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186281445, 'TRISC_2', (0, 0))",
+                      "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186284016, 'BRISC', (0, 0))"
+                    ]
+                  }
+                ],
                 "timeseries": [
-                  "(0, 320219178244005, 'NCRISC', (0, 0))",
-                  "(0, 320219178244005, 'BRISC', (0, 0))",
-                  "(1, 320219178244005, 'BRISC', (0, 0))",
-                  "(0, 320219178244005, 'TRISC_0', (0, 0))",
-                  "(0, 320219178244005, 'TRISC_1', (0, 0))",
-                  "(0, 320219178244005, 'TRISC_2', (0, 0))",
-                  "(2, 320219178247355, 'BRISC', (0, 0))",
-                  "(1, 320219178247411, 'NCRISC', (0, 0))",
-                  "(1, 320219178247587, 'TRISC_1', (0, 0))",
-                  "(1, 320219178247759, 'TRISC_0', (0, 0))",
-                  "(1, 320219178247913, 'TRISC_2', (0, 0))",
-                  "(2, 320219178248122, 'TRISC_1', (0, 0))",
-                  "(2, 320219178248287, 'TRISC_0', (0, 0))",
-                  "(6, 320219178248349, 'TRISC_1', (0, 0))",
-                  "(2, 320219178248519, 'TRISC_2', (0, 0))",
-                  "(2, 320219178248751, 'NCRISC', (0, 0))",
-                  "(5, 320219178248970, 'NCRISC', (0, 0))",
-                  "(5, 320219178249112, 'NCRISC', (0, 0))",
-                  "(5, 320219178249279, 'NCRISC', (0, 0))",
-                  "(5, 320219178249418, 'NCRISC', (0, 0))",
-                  "(5, 320219178249576, 'NCRISC', (0, 0))",
-                  "(5, 320219178249714, 'NCRISC', (0, 0))",
-                  "(5, 320219178249874, 'NCRISC', (0, 0))",
-                  "(6, 320219178249955, 'TRISC_2', (0, 0))",
-                  "(5, 320219178250011, 'NCRISC', (0, 0))",
-                  "(5, 320219178250169, 'NCRISC', (0, 0))",
-                  "(5, 320219178250305, 'NCRISC', (0, 0))",
-                  "(5, 320219178250464, 'NCRISC', (0, 0))",
-                  "(5, 320219178250601, 'NCRISC', (0, 0))",
-                  "(5, 320219178250759, 'NCRISC', (0, 0))",
-                  "(6, 320219178257796, 'TRISC_0', (0, 0))",
-                  "(6, 320219178275220, 'TRISC_0', (0, 0))",
-                  "(6, 320219178275650, 'TRISC_1', (0, 0))",
-                  "(6, 320219178276206, 'TRISC_2', (0, 0))",
-                  "(6, 320219178293041, 'TRISC_0', (0, 0))",
-                  "(6, 320219178293474, 'TRISC_1', (0, 0))",
-                  "(6, 320219178294024, 'TRISC_2', (0, 0))",
-                  "(6, 320219178310866, 'TRISC_0', (0, 0))",
-                  "(6, 320219178311298, 'TRISC_1', (0, 0))",
-                  "(6, 320219178311841, 'TRISC_2', (0, 0))",
-                  "(6, 320219178328792, 'TRISC_0', (0, 0))",
-                  "(6, 320219178329135, 'TRISC_1', (0, 0))",
-                  "(6, 320219178329714, 'TRISC_2', (0, 0))",
-                  "(6, 320219178349670, 'TRISC_0', (0, 0))",
-                  "(6, 320219178350100, 'TRISC_1', (0, 0))",
-                  "(6, 320219178350656, 'TRISC_2', (0, 0))",
-                  "(6, 320219178370574, 'TRISC_0', (0, 0))",
-                  "(6, 320219178371014, 'TRISC_1', (0, 0))",
-                  "(6, 320219178371575, 'TRISC_2', (0, 0))",
-                  "(6, 320219178391474, 'TRISC_0', (0, 0))",
-                  "(6, 320219178391911, 'TRISC_1', (0, 0))",
-                  "(6, 320219178392469, 'TRISC_2', (0, 0))",
-                  "(6, 320219178412458, 'TRISC_0', (0, 0))",
-                  "(6, 320219178412810, 'TRISC_1', (0, 0))",
-                  "(6, 320219178413385, 'TRISC_2', (0, 0))",
-                  "(6, 320219178433322, 'TRISC_0', (0, 0))",
-                  "(6, 320219178433760, 'TRISC_1', (0, 0))",
-                  "(6, 320219178434317, 'TRISC_2', (0, 0))",
-                  "(6, 320219178454262, 'TRISC_0', (0, 0))",
-                  "(6, 320219178454699, 'TRISC_1', (0, 0))",
-                  "(6, 320219178455247, 'TRISC_2', (0, 0))",
-                  "(6, 320219178475156, 'TRISC_0', (0, 0))",
-                  "(6, 320219178475595, 'TRISC_1', (0, 0))",
-                  "(6, 320219178476161, 'TRISC_2', (0, 0))",
-                  "(6, 320219178496173, 'TRISC_0', (0, 0))",
-                  "(6, 320219178496532, 'TRISC_1', (0, 0))",
-                  "(6, 320219178497100, 'TRISC_2', (0, 0))",
-                  "(4, 320219186122486, 'NCRISC', (0, 0))",
-                  "(7, 320219186200509, 'BRISC', (0, 0))",
-                  "(7, 320219186200591, 'BRISC', (0, 0))",
-                  "(7, 320219186200690, 'BRISC', (0, 0))",
-                  "(7, 320219186200761, 'BRISC', (0, 0))",
-                  "(7, 320219186200851, 'BRISC', (0, 0))",
-                  "(7, 320219186200922, 'BRISC', (0, 0))",
-                  "(7, 320219186201012, 'BRISC', (0, 0))",
-                  "(7, 320219186201083, 'BRISC', (0, 0))",
-                  "(7, 320219186203125, 'BRISC', (0, 0))",
-                  "(7, 320219186203196, 'BRISC', (0, 0))",
-                  "(7, 320219186203288, 'BRISC', (0, 0))",
-                  "(7, 320219186203359, 'BRISC', (0, 0))",
-                  "(7, 320219186203449, 'BRISC', (0, 0))",
-                  "(4, 320219186280839, 'TRISC_0', (0, 0))",
-                  "(4, 320219186280895, 'TRISC_1', (0, 0))",
-                  "(4, 320219186281445, 'TRISC_2', (0, 0))",
-                  "(4, 320219186284016, 'BRISC', (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'NCRISC', (0, 0))",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'BRISC', (0, 0))",
+                  "({'id': 1, 'zoneName': 'BRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178244005, 'BRISC', (0, 0))",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_0', (0, 0))",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_1', (0, 0))",
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, 'TRISC_2', (0, 0))",
+                  "({'id': 2, 'zoneName': 'BRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247355, 'BRISC', (0, 0))",
+                  "({'id': 1, 'zoneName': 'NCRISC-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247411, 'NCRISC', (0, 0))",
+                  "({'id': 1, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247587, 'TRISC_1', (0, 0))",
+                  "({'id': 1, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247759, 'TRISC_0', (0, 0))",
+                  "({'id': 1, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247913, 'TRISC_2', (0, 0))",
+                  "({'id': 2, 'zoneName': 'TRISC_1-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248122, 'TRISC_1', (0, 0))",
+                  "({'id': 2, 'zoneName': 'TRISC_0-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248287, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248349, 'TRISC_1', (0, 0))",
+                  "({'id': 2, 'zoneName': 'TRISC_2-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248519, 'TRISC_2', (0, 0))",
+                  "({'id': 2, 'zoneName': 'NCRISC-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248751, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248970, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249112, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249279, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249418, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249576, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249714, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249874, 'NCRISC', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249955, 'TRISC_2', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250011, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250169, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250305, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250464, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250601, 'NCRISC', (0, 0))",
+                  "({'id': 5, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178250759, 'NCRISC', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178257796, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275220, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275650, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178276206, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293041, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293474, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178294024, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178310866, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311298, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311841, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178328792, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329135, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329714, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178349670, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350100, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350656, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178370574, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371014, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371575, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391474, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391911, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178392469, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412458, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412810, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178413385, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433322, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433760, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178434317, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454262, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454699, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178455247, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475156, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475595, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178476161, 'TRISC_2', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496173, 'TRISC_0', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496532, 'TRISC_1', (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178497100, 'TRISC_2', (0, 0))",
+                  "({'id': 4, 'zoneName': 'NCRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186122486, 'NCRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200509, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200591, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200690, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200761, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200851, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186200922, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201012, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186201083, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203125, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203196, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203288, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203359, 'BRISC', (0, 0))",
+                  "({'id': 7, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219186203449, 'BRISC', (0, 0))",
+                  "({'id': 4, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280839, 'TRISC_0', (0, 0))",
+                  "({'id': 4, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280895, 'TRISC_1', (0, 0))",
+                  "({'id': 4, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186281445, 'TRISC_2', (0, 0))",
+                  "({'id': 4, 'zoneName': 'BRISC-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186284016, 'BRISC', (0, 0))"
                 ]
               },
               "TRISC_0": {
                 "timeseries": [
-                  "(0, 320219178244005, (0, 0))",
-                  "(1, 320219178247759, (0, 0))",
-                  "(2, 320219178248287, (0, 0))",
-                  "(6, 320219178257796, (0, 0))",
-                  "(6, 320219178275220, (0, 0))",
-                  "(6, 320219178293041, (0, 0))",
-                  "(6, 320219178310866, (0, 0))",
-                  "(6, 320219178328792, (0, 0))",
-                  "(6, 320219178349670, (0, 0))",
-                  "(6, 320219178370574, (0, 0))",
-                  "(6, 320219178391474, (0, 0))",
-                  "(6, 320219178412458, (0, 0))",
-                  "(6, 320219178433322, (0, 0))",
-                  "(6, 320219178454262, (0, 0))",
-                  "(6, 320219178475156, (0, 0))",
-                  "(6, 320219178496173, (0, 0))",
-                  "(4, 320219186280839, (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, (0, 0))",
+                  "({'id': 1, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247759, (0, 0))",
+                  "({'id': 2, 'zoneName': 'TRISC_0-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248287, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178257796, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275220, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293041, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178310866, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178328792, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178349670, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178370574, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391474, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412458, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433322, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454262, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475156, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496173, (0, 0))",
+                  "({'id': 4, 'zoneName': 'TRISC_0-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280839, (0, 0))"
                 ]
               },
               "TRISC_1": {
                 "timeseries": [
-                  "(0, 320219178244005, (0, 0))",
-                  "(1, 320219178247587, (0, 0))",
-                  "(2, 320219178248122, (0, 0))",
-                  "(6, 320219178248349, (0, 0))",
-                  "(6, 320219178275650, (0, 0))",
-                  "(6, 320219178293474, (0, 0))",
-                  "(6, 320219178311298, (0, 0))",
-                  "(6, 320219178329135, (0, 0))",
-                  "(6, 320219178350100, (0, 0))",
-                  "(6, 320219178371014, (0, 0))",
-                  "(6, 320219178391911, (0, 0))",
-                  "(6, 320219178412810, (0, 0))",
-                  "(6, 320219178433760, (0, 0))",
-                  "(6, 320219178454699, (0, 0))",
-                  "(6, 320219178475595, (0, 0))",
-                  "(6, 320219178496532, (0, 0))",
-                  "(4, 320219186280895, (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, (0, 0))",
+                  "({'id': 1, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247587, (0, 0))",
+                  "({'id': 2, 'zoneName': 'TRISC_1-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248122, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178248349, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178275650, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178293474, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311298, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329135, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350100, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371014, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178391911, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178412810, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178433760, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178454699, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178475595, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178496532, (0, 0))",
+                  "({'id': 4, 'zoneName': 'TRISC_1-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186280895, (0, 0))"
                 ]
               },
               "TRISC_2": {
                 "timeseries": [
-                  "(0, 320219178244005, (0, 0))",
-                  "(1, 320219178247913, (0, 0))",
-                  "(2, 320219178248519, (0, 0))",
-                  "(6, 320219178249955, (0, 0))",
-                  "(6, 320219178276206, (0, 0))",
-                  "(6, 320219178294024, (0, 0))",
-                  "(6, 320219178311841, (0, 0))",
-                  "(6, 320219178329714, (0, 0))",
-                  "(6, 320219178350656, (0, 0))",
-                  "(6, 320219178371575, (0, 0))",
-                  "(6, 320219178392469, (0, 0))",
-                  "(6, 320219178413385, (0, 0))",
-                  "(6, 320219178434317, (0, 0))",
-                  "(6, 320219178455247, (0, 0))",
-                  "(6, 320219178476161, (0, 0))",
-                  "(6, 320219178497100, (0, 0))",
-                  "(4, 320219186281445, (0, 0))"
+                  "({'id': 0, 'zoneName': '', 'zonePhase': '', 'srcLine': '', 'srcFile': ''}, 320219178244005, (0, 0))",
+                  "({'id': 1, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178247913, (0, 0))",
+                  "({'id': 2, 'zoneName': 'TRISC_2-KERNEL', 'zonePhase': 'begin', 'srcLine': 0, 'srcFile': ''}, 320219178248519, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178249955, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178276206, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178294024, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178311841, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178329714, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178350656, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178371575, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178392469, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178413385, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178434317, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178455247, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178476161, (0, 0))",
+                  "({'id': 6, 'zoneName': '', 'zonePhase': '', 'srcLine': 0, 'srcFile': ''}, 320219178497100, (0, 0))",
+                  "({'id': 4, 'zoneName': 'TRISC_2-FW', 'zonePhase': 'end', 'srcLine': 0, 'srcFile': ''}, 320219186281445, (0, 0))"
                 ]
               }
             }
@@ -474,11 +750,8 @@
     }
   },
   "setup": {
-    "cycleRange": null,
+    "detectOps": true,
     "deviceAnalysisData": "device_analysis_data.json",
-    "deviceChromeTracing": "device_chrome_tracing.json",
-    "devicePerfHTML": "timeline.html",
-    "deviceRearranged": "device_rearranged_timestamps.csv",
     "deviceStatsTXT": "device_stats.txt",
     "deviceTarball": "device_perf_results.tgz",
     "displayStats": [
@@ -490,198 +763,154 @@
       "Sum",
       "Range"
     ],
-    "ignoreMarkers": [
-      65535
-    ],
-    "intrestingCores": null,
     "outputFolder": "output/device",
-    "plotBaseHeight": 200,
-    "plotPerCoreHeight": 100,
+    "riscTypes": [
+      "BRISC",
+      "NCRISC",
+      "TRISC",
+      "ERISC"
+    ],
     "riscs": [
       "BRISC",
       "NCRISC",
       "TRISC_0",
       "TRISC_1",
-      "TRISC_2"
+      "TRISC_2",
+      "ERISC"
     ],
-    "riscsData": {
-      "BRISC": {
-        "color": "light:g"
-      },
-      "NCRISC": {
-        "color": "light:r"
-      },
-      "TENSIX": {
-        "color": "light:b"
-      },
-      "TRISC_0": {
-        "color": "light:gray"
-      },
-      "TRISC_1": {
-        "color": "light:gray"
-      },
-      "TRISC_2": {
-        "color": "light:gray"
-      }
-    },
     "timerAnalysis": {
-      "ANY RISC FW end -> BRISC FW start": {
-        "across": "core",
+      "BR_KERNEL_START->BR_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "BRISC",
-          "timerID": 1
+          "zoneName": "BRISC-KERNEL"
         },
         "start": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "type": "adjacent"
-      },
-      "ANY RISC FW start -> ANY RISC FW end": {
-        "across": "core",
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 1
-        },
-        "type": "launch_first_last"
-      },
-      "BRISC FW start -> ANY RISC FW end": {
-        "across": "core",
-        "end": {
-          "risc": "ANY",
-          "timerID": 4
-        },
-        "start": {
-          "risc": "ANY",
-          "timerID": 1
-        },
-        "type": "session_first_last"
-      },
-      "BRISC kernel start -> BRISC kernel end": {
-        "across": "core",
-        "end": {
+          "core": "ANY",
           "risc": "BRISC",
-          "timerID": 3
+          "zoneName": "BRISC-KERNEL"
         },
-        "start": {
-          "risc": "BRISC",
-          "timerID": 2
-        },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "NCRISC kernel start -> NCRISC kernel end": {
-        "across": "core",
+      "ER_KERNEL_START->ER_KERNEL_END": {
+        "across": "ops",
         "end": {
-          "risc": "NCRISC",
-          "timerID": 3
+          "core": "ANY",
+          "risc": "ERISC",
+          "zoneName": "ERISC-KERNEL"
         },
         "start": {
-          "risc": "NCRISC",
-          "timerID": 2
+          "core": "ANY",
+          "risc": "ERISC",
+          "zoneName": "ERISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "T0 -> ANY CORE ANY RISC FW end": {
-        "across": "device",
+      "FW_START->FW_END": {
+        "across": "ops",
         "end": {
           "core": "ANY",
           "risc": "ANY",
-          "timerID": 4
+          "zoneName": [
+            "BRISC-FW",
+            "NCRISC-FW",
+            "TRISC-FW",
+            "ERISC-FW"
+          ]
         },
         "start": {
           "core": "ANY",
           "risc": "ANY",
-          "timerID": 1
+          "zoneName": [
+            "BRISC-FW",
+            "NCRISC-FW",
+            "TRISC-FW",
+            "ERISC-FW"
+          ]
         },
-        "type": "session_first_last"
+        "type": "op_first_last"
       },
-      "T0 -> ANY RISC FW end": {
-        "across": "core",
+      "KERNEL_START->KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "ANY",
-          "timerID": 4
+          "zoneName": [
+            "BRISC-KERNEL",
+            "NCRISC-KERNEL",
+            "TRISC-KERNEL",
+            "ERISC-KERNEL"
+          ]
         },
         "start": {
-          "risc": "BRISC",
-          "timerID": 0
+          "core": "ANY",
+          "risc": "ANY",
+          "zoneName": [
+            "BRISC-KERNEL",
+            "NCRISC-KERNEL",
+            "TRISC-KERNEL",
+            "ERISC-KERNEL"
+          ]
         },
-        "type": "session_first_last"
+        "type": "op_first_last"
       },
-      "T0 -> BRISC FW start": {
-        "across": "core",
+      "NC_KERNEL_START->NC_KERNEL_END": {
+        "across": "ops",
         "end": {
-          "risc": "BRISC",
-          "timerID": 1
+          "core": "ANY",
+          "risc": "NCRISC",
+          "zoneName": "NCRISC-KERNEL"
         },
         "start": {
-          "risc": "BRISC",
-          "timerID": 0
+          "core": "ANY",
+          "risc": "NCRISC",
+          "zoneName": "NCRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC0 kernel start -> TRISC0 kernel end": {
-        "across": "core",
+      "T0_KERNEL_START->T0_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_0",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_0",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC1 kernel start -> TRISC1 kernel end": {
-        "across": "core",
+      "T1_KERNEL_START->T1_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_1",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_1",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       },
-      "TRISC2 kernel start -> TRISC2 kernel end": {
-        "across": "core",
+      "T2_KERNEL_START->T2_KERNEL_END": {
+        "across": "ops",
         "end": {
+          "core": "ANY",
           "risc": "TRISC_2",
-          "timerID": 3
+          "zoneName": "TRISC-KERNEL"
         },
         "start": {
+          "core": "ANY",
           "risc": "TRISC_2",
-          "timerID": 2
+          "zoneName": "TRISC-KERNEL"
         },
-        "type": "adjacent"
+        "type": "op_first_last"
       }
-    },
-    "timerIDLabels": [
-      [
-        0,
-        "Start"
-      ],
-      [
-        1,
-        "Firmware Start"
-      ],
-      [
-        2,
-        "Kernel start"
-      ],
-      [
-        3,
-        "Kernel End"
-      ],
-      [
-        4,
-        "Firmware End"
-      ]
-    ],
-    "webappPort": 8050
+    }
   }
 }
