@@ -1,10 +1,10 @@
 Chip clock is at 1.2 GHz
-PCIe slot, core_x, core_y, RISC processor type, timer_id, time[cycles since reset]
-0, 0, 0, BRISC, 1, 512868455659697
-0, 0, 0, BRISC, 2, 512868455662814
-0, 0, 0, BRISC, 3, 512868455662878
-0, 0, 0, BRISC, 4, 512868455662962
-0, 0, 0, BRISC, 1, 512868456112340
-0, 0, 0, BRISC, 2, 512868456115457
-0, 0, 0, BRISC, 3, 512868456115521
-0, 0, 0, BRISC, 4, 512868456115605
+PCIe slot, core_x, core_y, RISC processor type, timer_id, time[cycles since reset], Run ID, zone name, zone phase, source line, source file
+0, 0, 0, BRISC, 1, 512868455659697,0,BRISC-FW,begin,0,
+0, 0, 0, BRISC, 2, 512868455662814,0,BRISC-KERNEL,begin,0,
+0, 0, 0, BRISC, 3, 512868455662878,0,BRISC-KERNEL,end,0,
+0, 0, 0, BRISC, 4, 512868455662962,0,BRISC-FW,end,0,
+0, 0, 0, BRISC, 1, 512868456112340,0,BRISC-FW,begin,0,
+0, 0, 0, BRISC, 2, 512868456115457,0,BRISC-KERNEL,begin,0,
+0, 0, 0, BRISC, 3, 512868456115521,0,BRISC-KERNEL,end,0,
+0, 0, 0, BRISC, 4, 512868456115605,0,BRISC-FW,end,0,
