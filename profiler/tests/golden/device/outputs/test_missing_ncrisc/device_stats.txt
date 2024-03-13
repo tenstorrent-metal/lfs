@@ -1,30 +1,50 @@
 
-=================== FW_START->FW_END ===================
+=================== device_fw_duration ===================
        Count          =          2
-     Average [cycles] =      3,265
-         Max [cycles] =      3,265
-      Median [cycles] =      3,265
-         Min [cycles] =      3,265
-         Sum [cycles] =      6,530
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
        Range [cycles] =          0
 
 
-=================== KERNEL_START->KERNEL_END ===================
+=================== device_kernel_duration ===================
        Count          =          2
-     Average [cycles] =         64
-         Max [cycles] =         64
-      Median [cycles] =         64
-         Min [cycles] =         64
-         Sum [cycles] =        128
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
        Range [cycles] =          0
 
 
-=================== BR_KERNEL_START->BR_KERNEL_END ===================
+=================== device_brisc_kernel_duration ===================
        Count          =          2
-     Average [cycles] =         64
-         Max [cycles] =         64
-      Median [cycles] =         64
-         Min [cycles] =         64
-         Sum [cycles] =        128
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
+
+
+=================== device_compute_cb_wait_front ===================
+       Count          =          2
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
+
+
+=================== device_compute_cb_reserve_back ===================
+       Count          =          2
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
        Range [cycles] =          0
 

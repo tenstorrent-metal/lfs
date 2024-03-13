@@ -1,8 +1,12 @@
 
-=================== FW_START->FW_END ===================
-    Duration [cycles] =  8,040,011
+=================== device_fw_duration ===================
+    Duration [cycles] =          0
 
 
-=================== KERNEL_START->KERNEL_END ===================
-    Duration [cycles] =      1,396
+=================== device_compute_cb_wait_front ===================
+    Duration [cycles] =          0
+
+
+=================== device_compute_cb_reserve_back ===================
+    Duration [cycles] =          0
 

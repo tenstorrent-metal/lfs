@@ -1,10 +1,10 @@
 Chip clock is at 1.2 GHz
-PCIe slot, core_x, core_y, RISC processor type, timer_id, time[cycles since reset], Run ID, zone name, zone phase, source line, source file
-0, 0, 0, NCRISC, 1, 620014949329412,0,NCRISC-FW,begin,0,
-0, 0, 0, NCRISC, 2, 620014949330453,0,NCRISC-KERNEL,begin,0,
-0, 0, 0, NCRISC, 3, 620014949330483,0,NCRISC-KERNEL,end,0,
-0, 0, 0, NCRISC, 4, 620014949330517,0,NCRISC-FW,end,0,
-0, 0, 1, NCRISC, 3, 620014949329412,0,NCRISC-KERNEL,end,0,
-0, 0, 1, NCRISC, 4, 620014949330453,0,NCRISC-FW,end,0,
-0, 0, 1, NCRISC, 1, 620014949330483,0,NCRISC-FW,begin,0,
-0, 0, 1, NCRISC, 2, 620014949330517,0,NCRISC-KERNEL,begin,0,
+PCIe slot, core_x, core_y, RISC processor type, timer_id, time[cycles since reset], stat value, Run ID, zone name, zone phase, source line, source file
+0, 0, 0, NCRISC, 1,0, 620014949329412,0,NCRISC-FW,begin,0,
+0, 0, 0, NCRISC, 2,0, 620014949330453,0,NCRISC-KERNEL,begin,0,
+0, 0, 0, NCRISC, 3,0, 620014949330483,0,NCRISC-KERNEL,end,0,
+0, 0, 0, NCRISC, 4,0, 620014949330517,0,NCRISC-FW,end,0,
+0, 0, 1, NCRISC, 3,0, 620014949329412,0,NCRISC-KERNEL,end,0,
+0, 0, 1, NCRISC, 4,0, 620014949330453,0,NCRISC-FW,end,0,
+0, 0, 1, NCRISC, 1,0, 620014949330483,0,NCRISC-FW,begin,0,
+0, 0, 1, NCRISC, 2,0, 620014949330517,0,NCRISC-KERNEL,begin,0,
