@@ -1,40 +1,60 @@
 
-=================== FW_START->FW_END ===================
-       Count          =          2
-     Average [cycles] =    469,458
-         Max [cycles] =    530,393
-      Median [cycles] =    469,458
-         Min [cycles] =    408,524
-         Sum [cycles] =    938,917
-       Range [cycles] =    121,869
+=================== device_fw_duration ===================
+       Count          =        216
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
 
 
-=================== KERNEL_START->KERNEL_END ===================
-       Count          =          2
-     Average [cycles] =    467,798
-         Max [cycles] =    528,725
-      Median [cycles] =    467,798
-         Min [cycles] =    406,871
-         Sum [cycles] =    935,596
-       Range [cycles] =    121,854
+=================== device_kernel_duration ===================
+       Count          =        216
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
 
 
-=================== BR_KERNEL_START->BR_KERNEL_END ===================
-       Count          =          2
-     Average [cycles] =    467,798
-         Max [cycles] =    528,725
-      Median [cycles] =    467,798
-         Min [cycles] =    406,871
-         Sum [cycles] =    935,596
-       Range [cycles] =    121,854
+=================== device_brisc_kernel_duration ===================
+       Count          =        216
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
 
 
-=================== NC_KERNEL_START->NC_KERNEL_END ===================
-       Count          =          2
-     Average [cycles] =    467,221
-         Max [cycles] =    528,138
-      Median [cycles] =    467,221
-         Min [cycles] =    406,304
-         Sum [cycles] =    934,442
-       Range [cycles] =    121,834
+=================== device_ncrisc_kernel_duration ===================
+       Count          =        107
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
+
+
+=================== device_compute_cb_wait_front ===================
+       Count          =        216
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
+
+
+=================== device_compute_cb_reserve_back ===================
+       Count          =        216
+     Average [cycles] =          0
+         Max [cycles] =          0
+      Median [cycles] =          0
+         Min [cycles] =          0
+         Sum [cycles] =          0
+       Range [cycles] =          0
 
